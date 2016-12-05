@@ -1,0 +1,124 @@
+﻿[2016.12.05-00.07.32:632][  0]Log file open, 12/04/16 19:07:32
+[2016.12.05-00.07.32:632][  0]LogInit:Display: Running engine for game: Surreal
+[2016.12.05-00.07.32:632][  0]LogPlatformFile: Not using cached read wrapper
+[2016.12.05-00.07.32:632][  0]LogInit:Display: RandInit(-1807878363) SRandInit(-1807878362).
+[2016.12.05-00.07.32:632][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.12.05-00.07.32:632][  0]LogStats: Stats thread started at 0.082664
+[2016.12.05-00.07.32:632][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.12.05-00.07.32:632][  0]LogInit: API Version: 2758231
+[2016.12.05-00.07.32:632][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.12.05-00.07.32:632][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.12.05-00.07.32:632][  0]LogInit: Build Configuration: Development
+[2016.12.05-00.07.32:632][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.12.05-00.07.32:632][  0]LogInit: Command line:  /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.12.05-00.07.32:632][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.12.05-00.07.32:632][  0]LogInit: Rocket: 1
+[2016.12.05-00.07.32:638][  0]LogInit: Using libcurl 7.41.0
+[2016.12.05-00.07.32:638][  0]LogInit:  - built for x86_64-pc-win32
+[2016.12.05-00.07.32:638][  0]LogInit:  - supports SSL with WinSSL
+[2016.12.05-00.07.32:638][  0]LogInit:  - other features:
+[2016.12.05-00.07.32:638][  0]LogInit:      CURL_VERSION_SSL
+[2016.12.05-00.07.32:638][  0]LogInit:      CURL_VERSION_IPV6
+[2016.12.05-00.07.32:638][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.12.05-00.07.32:638][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.12.05-00.07.32:638][  0]LogInit:      CURL_VERSION_IDN
+[2016.12.05-00.07.32:638][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.12.05-00.07.32:638][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.12.05-00.07.32:638][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.12.05-00.07.32:638][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.12.05-00.07.32:638][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.12.05-00.07.32:643][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.12.05-00.07.32:650][  0]LogInit: Object subsystem initialized
+[2016.12.05-00.07.32:651][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.05-00.07.32:651][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.05-00.07.32:654][  0]LogInit: Computer: MYSTERYMACHINE
+[2016.12.05-00.07.32:654][  0]LogInit: User: Matthew
+[2016.12.05-00.07.32:654][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.12.05-00.07.32:654][  0]LogInit: High frequency timer resolution =3.507505 MHz
+[2016.12.05-00.07.32:654][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.05-00.07.32:654][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.05-00.07.32:654][  0]LogMemory: Process Physical Memory: 54.96 MB used, 54.96 MB peak
+[2016.12.05-00.07.32:654][  0]LogMemory: Process Virtual Memory: 56.45 MB used, 56.45 MB peak
+[2016.12.05-00.07.32:654][  0]LogMemory: Physical Memory: 5503.57 MB used, 16325.88 MB total
+[2016.12.05-00.07.32:654][  0]LogMemory: Virtual Memory: 365.55 MB used, 134217728.00 MB total
+[2016.12.05-00.07.32:875][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2016.12.05-00.07.33:309][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.12.05-00.07.33:309][  0]LogD3D11RHI: Adapter has 3975MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
+[2016.12.05-00.07.33:311][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.12.05-00.07.33:311][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.12.05-00.07.33:311][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.12.05-00.07.33:314][  0]LogD3D11RHI: !Direct3DDevice
+[2016.12.05-00.07.33:314][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.05-00.07.33:328][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.05-00.07.33:346][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Intermediate/Shaders/WorkingDirectory/8980/).
+[2016.12.05-00.07.33:346][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matthew/AppData/Local/Temp/UnrealShaderWorkingDir/55D6D1684275939E3EB2D686BFAEA877/'.
+[2016.12.05-00.07.33:346][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.05-00.07.33:988][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.05-00.07.33:991][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.05-00.07.33:994][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.05-00.07.33:997][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.05-00.07.34:001][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.05-00.07.34:003][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.05-00.07.34:005][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.05-00.07.34:009][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.05-00.07.34:011][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.05-00.07.34:013][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.05-00.07.34:016][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.05-00.07.34:021][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.05-00.07.34:021][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.05-00.07.34:022][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.05-00.07.34:037][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.05-00.07.34:039][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.05-00.07.34:042][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.05-00.07.34:044][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.05-00.07.34:044][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.05-00.07.34:118][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.05-00.07.34:162][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.12.05-00.07.34:162][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.12.05-00.07.34:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.05-00.07.34:162][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.05-00.07.34:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.05-00.07.34:162][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.05-00.07.34:207][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.05-00.07.34:220][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matthew/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.05-00.07.34:354][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.05-00.07.34:356][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.12.05-00.07.34:432][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.05-00.07.34:432][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.05-00.07.34:595][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.05-00.07.34:750][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Movies/Default_Startup.mp4
+[2016.12.05-00.07.34:840][  0]SourceControl: Info Source control is disabled
+[2016.12.05-00.07.34:840][  0]SourceControl: Info Source control is disabled
+[2016.12.05-00.07.34:848][  0]SourceControl: Info Source control is disabled
+[2016.12.05-00.07.34:981][  0]LogObj: 27935 objects as part of root set at end of initial load.
+[2016.12.05-00.07.34:981][  0]LogUObjectAllocator: 5830064 out of 0 bytes used by permanent object pool.
+[2016.12.05-00.07.35:028][  0]LogEngine: Initializing Engine...
+[2016.12.05-00.07.35:029][  0]OCULUS: Info: 12/05/16 00:07:35: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_8.dll
+
+[2016.12.05-00.07.35:040][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.12.05-00.07.35:123][  0]LogInit: XAudio2 using 'NS-24L240A13-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.05-00.07.35:128][  0]LogInit: FAudioDevice initialized.
+[2016.12.05-00.07.35:134][  0]LogInit: Texture streaming: Enabled
+[2016.12.05-00.07.35:184][  0]LogNet: Browse: /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap?Name=Player
+[2016.12.05-00.07.35:184][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap?Name=Player
+[2016.12.05-00.07.35:192][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000218C676C00
+[2016.12.05-00.07.35:198][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.05-00.07.35:198][  0]LogMemory: Process Physical Memory: 368.20 MB used, 371.08 MB peak
+[2016.12.05-00.07.35:198][  0]LogMemory: Process Virtual Memory: 441.66 MB used, 441.67 MB peak
+[2016.12.05-00.07.35:198][  0]LogMemory: Physical Memory: 5759.26 MB used, 16325.88 MB total
+[2016.12.05-00.07.35:198][  0]LogMemory: Virtual Memory: 989.80 MB used, 134217728.00 MB total
+[2016.12.05-00.07.35:198][  0]LogMemory: 
+[2016.12.05-00.07.35:198][  0]Allocator Stats for TBB: (not implemented)
+[2016.12.05-00.07.35:291][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2016.12.05-00.07.35:369][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.05-00.07.35:431][  0]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'Arrow': FirstPersonCharacter_C /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C
+[2016.12.05-00.07.36:168][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.05-00.07.36:196][  0]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.05-00.07.36:226][  0]LogWorld: Bringing World /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.12.04-19.07.36
+[2016.12.05-00.07.36:229][  0]LogWorld: Bringing up level for play took: 0.032377
+[2016.12.05-00.07.36:230][  0]LogInit:Display: Game Engine Initialized.
+[2016.12.05-00.07.36:447][  0]LogLoad: Full Startup: 4.06 seconds (BP compile: 0.23 seconds)
+[2016.12.05-00.07.36:463][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.05-00.07.36:464][  0]LogOcInput: OculusInput is initialized. Init status -3003. Runtime version: (Unable to load LibOVR)
+[2016.12.05-00.07.36:520][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2016.12.05-0

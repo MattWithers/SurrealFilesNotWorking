@@ -1,0 +1,1027 @@
+﻿[2016.11.30-18.22.19:670][  0]Log file open, 11/30/16 13:22:19
+[2016.11.30-18.22.19:670][  0]LogInit:Display: Running engine for game: Surreal
+[2016.11.30-18.22.19:670][  0]LogPlatformFile: Not using cached read wrapper
+[2016.11.30-18.22.19:670][  0]LogInit:Display: RandInit(-937032580) SRandInit(-937032579).
+[2016.11.30-18.22.19:670][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.11.30-18.22.19:670][  0]LogStats: Stats thread started at 0.071716
+[2016.11.30-18.22.19:670][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.11.30-18.22.19:670][  0]LogInit: API Version: 2758231
+[2016.11.30-18.22.19:670][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.11.30-18.22.19:670][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.11.30-18.22.19:670][  0]LogInit: Build Configuration: Development
+[2016.11.30-18.22.19:670][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.11.30-18.22.19:670][  0]LogInit: Command line: 
+[2016.11.30-18.22.19:670][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.11.30-18.22.19:670][  0]LogInit: Rocket: 1
+[2016.11.30-18.22.19:675][  0]LogInit: Using libcurl 7.41.0
+[2016.11.30-18.22.19:675][  0]LogInit:  - built for x86_64-pc-win32
+[2016.11.30-18.22.19:675][  0]LogInit:  - supports SSL with WinSSL
+[2016.11.30-18.22.19:675][  0]LogInit:  - other features:
+[2016.11.30-18.22.19:675][  0]LogInit:      CURL_VERSION_SSL
+[2016.11.30-18.22.19:675][  0]LogInit:      CURL_VERSION_IPV6
+[2016.11.30-18.22.19:675][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.11.30-18.22.19:675][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.11.30-18.22.19:675][  0]LogInit:      CURL_VERSION_IDN
+[2016.11.30-18.22.19:675][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.11.30-18.22.19:675][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.11.30-18.22.19:675][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.11.30-18.22.19:675][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.11.30-18.22.19:675][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.11.30-18.22.19:680][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.11.30-18.22.19:684][  0]LogInit: Object subsystem initialized
+[2016.11.30-18.22.19:685][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.30-18.22.19:685][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.30-18.22.19:691][  0]LogInit: Computer: MYSTERYMACHINE
+[2016.11.30-18.22.19:691][  0]LogInit: User: Matthew
+[2016.11.30-18.22.19:691][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.11.30-18.22.19:691][  0]LogInit: High frequency timer resolution =3.507503 MHz
+[2016.11.30-18.22.19:691][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.30-18.22.19:691][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.30-18.22.19:691][  0]LogMemory: Process Physical Memory: 54.83 MB used, 54.83 MB peak
+[2016.11.30-18.22.19:691][  0]LogMemory: Process Virtual Memory: 56.64 MB used, 56.64 MB peak
+[2016.11.30-18.22.19:691][  0]LogMemory: Physical Memory: 5963.57 MB used, 16325.88 MB total
+[2016.11.30-18.22.19:691][  0]LogMemory: Virtual Memory: 365.68 MB used, 134217728.00 MB total
+[2016.11.30-18.22.19:800][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2016.11.30-18.22.20:169][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.11.30-18.22.20:169][  0]LogD3D11RHI: Adapter has 3975MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 2 output[s]
+[2016.11.30-18.22.20:170][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.11.30-18.22.20:170][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.11.30-18.22.20:170][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.11.30-18.22.20:174][  0]LogD3D11RHI: !Direct3DDevice
+[2016.11.30-18.22.20:174][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.30-18.22.20:186][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.30-18.22.20:202][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Intermediate/Shaders/WorkingDirectory/6600/).
+[2016.11.30-18.22.20:202][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matthew/AppData/Local/Temp/UnrealShaderWorkingDir/9D63189B40F35787C9E299B49C7C751B/'.
+[2016.11.30-18.22.20:202][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.30-18.22.20:876][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.30-18.22.20:880][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.30-18.22.20:884][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.30-18.22.20:887][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.30-18.22.20:890][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.30-18.22.20:892][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.30-18.22.20:895][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.30-18.22.20:897][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.30-18.22.20:899][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.30-18.22.20:902][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.30-18.22.20:904][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.30-18.22.20:909][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.30-18.22.20:909][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.30-18.22.20:910][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.30-18.22.20:926][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.30-18.22.20:929][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.30-18.22.20:932][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.30-18.22.20:934][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.30-18.22.20:934][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.30-18.22.21:010][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.30-18.22.21:055][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.30-18.22.21:055][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.11.30-18.22.21:055][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.30-18.22.21:055][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.30-18.22.21:055][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.30-18.22.21:055][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.30-18.22.21:101][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.30-18.22.21:113][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matthew/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.30-18.22.21:261][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.30-18.22.21:263][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.11.30-18.22.21:358][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.30-18.22.21:358][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.30-18.22.21:549][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.30-18.22.22:149][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.30-18.22.22:240][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.11.30-18.22.22:374][  0]SourceControl: Info Source control is disabled
+[2016.11.30-18.22.22:375][  0]SourceControl: Info Source control is disabled
+[2016.11.30-18.22.22:384][  0]SourceControl: Info Source control is disabled
+[2016.11.30-18.22.22:394][  0]SourceControl: Info Source control is disabled
+[2016.11.30-18.22.22:585][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.11.30-18.22.22:585][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.11.30-18.22.22:639][  0]LogEngine: Initializing Engine...
+[2016.11.30-18.22.22:641][  0]OCULUS: Info: 11/30/16 18:22:22: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_8.dll
+
+[2016.11.30-18.22.22:653][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.11.30-18.22.22:740][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.30-18.22.22:745][  0]LogInit: XAudio2 using 'NS-24L240A13-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.30-18.22.22:750][  0]LogInit: FAudioDevice initialized.
+[2016.11.30-18.22.22:785][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.30-18.22.22:792][  0]LogInit: Texture streaming: Enabled
+[2016.11.30-18.22.22:797][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.11.30-18.22.22:797][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.11.30-18.22.22:797][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 30846442452bc96b6507b6becd57ee02|7d14a1fe045f4d43a4f78de1f548c9bc|31702dc6-e2b8-4b86-bdc9-c7ff476772df
+[2016.11.30-18.22.22:797][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.11.30-18.22.22:806][  0]LogInit: Transaction tracking system initialized
+[2016.11.30-18.22.22:829][  0]BlueprintLog: New page: Editor Load
+[2016.11.30-18.22.22:907][  0]LocalizationService: Info Localization service is disabled
+[2016.11.30-18.22.22:980][  0]LogConsoleResponse:Display: 
+[2016.11.30-18.22.23:082][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.11.30-18.22.23:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Content/' took 0.02s
+[2016.11.30-18.22.23:136][  0]SourceControl: Info Source control is disabled
+[2016.11.30-18.22.23:137][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.30-18.22.23:137][  0]LightingResults: New page: Lighting Build
+[2016.11.30-18.22.23:139][  0]MapCheck: New page: Map Check
+[2016.11.30-18.22.23:139][  0]LightingResults: New page: Lighting Build
+[2016.11.30-18.22.23:150][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026CB01E160
+[2016.11.30-18.22.23:332][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.11.30-18.22.23:731][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Inventory/Item_Misc_Apple_WA.Item_Misc_Apple_WA_C:UserConstructionScript; removing parent information, but keeping function
+[2016.11.30-18.22.24:391][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.30-18.22.24:459][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.30-18.22.24:459][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.30-18.22.24:531][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.829ms to complete.
+[2016.11.30-18.22.24:531][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.395
+[2016.11.30-18.22.24:636][  0]LogCollectionManager: Loaded 0 collections in 0.001231 seconds
+[2016.11.30-18.22.24:679][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Collections/' took 0.01s
+[2016.11.30-18.22.24:679][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Content/Developers/Matthew/Collections/' took 0.01s
+[2016.11.30-18.22.24:679][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Content/Collections/' took 0.01s
+[2016.11.30-18.22.24:679][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.11.30-18.22.24:685][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 1893 classes and 338 folders.
+[2016.11.30-18.22.24:691][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.11.30-18.22.24:730][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.11.30-18.22.24:733][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.30-18.22.24:750][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.30-18.22.24:754][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.30-18.22.24:776][  0]LogLoad: Full Startup: 5.43 seconds (BP compile: 0.22 seconds)
+[2016.11.30-18.22.24:784][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.30-18.22.24:785][  0]LogOcInput: OculusInput is initialized. Init status -3003. Runtime version: (Unable to load LibOVR)
+[2016.11.30-18.22.24:837][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.30-18.22.24:875][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:1).
+[2016.11.30-18.22.25:299][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.11.30-18.22.25:442][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.30-18.22.25:535][  5]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 460/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.22.25:915][  7]LogAssetRegistry: Asset discovery search completed in 3.6859 seconds
+[2016.11.30-18.22.25:916][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2016.11.30-18.22.27:153][ 88]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.22.30:325][121]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.11.30-18.22.30:637][121]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.11.30-18.22.31:168][126]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.22.33:077][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Inventory" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset" SILENT=true
+[2016.11.30-18.22.33:171][145]LogSavePackage: Save=88.263077ms
+[2016.11.30-18.22.33:171][145]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory6548BCAC400BF14F130FDAA1DD70BF6B.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset'
+[2016.11.30-18.22.33:173][145]LogSavePackage: Total save time: 94.886020ms
+[2016.11.30-18.22.33:173][145]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset
+[2016.11.30-18.22.41:893][363]BlueprintLog: New page: Compile Inventory
+[2016.11.30-18.22.42:034][363]BlueprintEditorCompileResults: Info [0022.69] Compile of Inventory successful! [in 140 ms]
+[2016.11.30-18.22.43:028][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Inventory" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset" SILENT=true
+[2016.11.30-18.22.43:116][374]LogSavePackage: Save=83.281754ms
+[2016.11.30-18.22.43:116][374]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory5D16B59C40C749878C5948917DB748A5.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset'
+[2016.11.30-18.22.43:117][374]LogSavePackage: Total save time: 87.528080ms
+[2016.11.30-18.22.43:118][374]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset
+[2016.11.30-18.24.58:898][101]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.25.15:844][759]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.26.03:694][ 74]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.26.04:776][ 85]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.26.17:823][219]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.26.29:374][532]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.26.40:912][ 61]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.26.46:938][128]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.27.03:686][293]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.27.06:466][371]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.27.09:732][482]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.27.27:084][681]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.28.48:207][ 64]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.28.49:560][ 78]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.28.51:026][ 93]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.29.11:676][590]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.29.12:653][599]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.29.17:376][ 93]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.29.50:852][387]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.29.51:548][394]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.29.52:724][406]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.30.58:460][916]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.32.50:758][883]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.32.56:666][432]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.33.18:756][914]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.33.19:439][920]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.33.43:940][996]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000268AE1F880
+[2016.11.30-18.33.43:944][996]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.027
+[2016.11.30-18.33.43:949][996]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/NewWidgetBlueprint] ([1] browsable assets)...
+[2016.11.30-18.33.43:949][996]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/NewWidgetBlueprint]
+[2016.11.30-18.33.43:965][996]LogSavePackage: Save=13.950380ms
+[2016.11.30-18.33.43:965][996]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/NewWidgetBlueprint_Auto1F6B77631427F85CC1D3F4E9B27ED0759.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/NewWidgetBlueprint_Auto1.uasset'
+[2016.11.30-18.33.43:967][996]LogSavePackage: Total save time: 15.486799ms
+[2016.11.30-18.33.43:967][996]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/NewWidgetBlueprint_Auto1.uasset
+[2016.11.30-18.33.43:967][996]LogFileHelpers: Auto-saving content packages took 0.022
+[2016.11.30-18.34.14:077][ 89]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.34.43:747][451]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.34.52:256][536]LogMetaData: Removing '/Game/Inventory/UI_OnItemSelected.SKEL_UI_OnItemSelected_C' ref from Metadata '/Game/Inventory/NewWidgetBlueprint.PackageMetaData'
+[2016.11.30-18.34.52:256][536]LogMetaData: Removing '/Game/Inventory/UI_OnItemSelected.UI_OnItemSelected_C' ref from Metadata '/Game/Inventory/NewWidgetBlueprint.PackageMetaData'
+[2016.11.30-18.34.52:256][536]LogMetaData: Removing '/Game/Inventory/UI_OnItemSelected.UI_OnItemSelected:EventGraph.K2Node_Event_240' ref from Metadata '/Game/Inventory/NewWidgetBlueprint.PackageMetaData'
+[2016.11.30-18.34.52:256][536]LogMetaData: Removing '/Game/Inventory/UI_OnItemSelected.UI_OnItemSelected:EventGraph.K2Node_Event_241' ref from Metadata '/Game/Inventory/NewWidgetBlueprint.PackageMetaData'
+[2016.11.30-18.34.52:282][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/UI_OnItemSelected" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset" SILENT=true
+[2016.11.30-18.34.52:289][536]LogSavePackage: Save=4.651172ms
+[2016.11.30-18.34.52:289][536]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelected9A9B8896443E69C57863698F7FA1DC1D.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset'
+[2016.11.30-18.34.52:291][536]LogSavePackage: Total save time: 7.639620ms
+[2016.11.30-18.34.52:292][536]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset
+[2016.11.30-18.34.52:488][538]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.34.53:200][546]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.35.46:624][864]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.35.52:946][904]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-18.36.48:215][654]LogEditorTransaction: Undo Move Anchor
+[2016.11.30-18.40.00:064][319]LogEditorTransaction: Undo Add Widget
+[2016.11.30-18.46.31:463][403]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.047
+[2016.11.30-18.46.31:473][403]LogSavePackage: Save=2.163362ms
+[2016.11.30-18.46.31:473][403]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/NewWidgetBlueprint_Auto234CE76314C1A39B95A4AB8A64D37B34D.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/NewWidgetBlueprint_Auto2.uasset'
+[2016.11.30-18.46.31:492][403]LogSavePackage: Total save time: 21.131273ms
+[2016.11.30-18.46.31:492][403]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/NewWidgetBlueprint_Auto2.uasset
+[2016.11.30-18.46.31:497][403]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/UI_OnItemSelected] ([1] browsable assets)...
+[2016.11.30-18.46.31:497][403]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/UI_OnItemSelected]
+[2016.11.30-18.46.31:521][403]LogSavePackage: Save=17.430349ms
+[2016.11.30-18.46.31:521][403]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelected_Auto2F2C96BC24451362B68F49096D2CD25A3.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/UI_OnItemSelected_Auto2.uasset'
+[2016.11.30-18.46.31:523][403]LogSavePackage: Total save time: 25.277529ms
+[2016.11.30-18.46.31:523][403]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/UI_OnItemSelected_Auto2.uasset
+[2016.11.30-18.46.31:523][403]LogFileHelpers: Auto-saving content packages took 0.060
+[2016.11.30-18.51.25:851][791]BlueprintLog: New page: Compile UI_OnItemSelected
+[2016.11.30-18.51.26:013][791]BlueprintEditorCompileResults: Info [1746.67] Compile of UI_OnItemSelected successful! [in 161 ms]
+[2016.11.30-18.51.27:026][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/UI_OnItemSelected" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset" SILENT=true
+[2016.11.30-18.51.27:037][803]LogSavePackage: Save=6.437628ms
+[2016.11.30-18.51.27:037][803]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelected36304EF04F713EDE1794CD94D969434E.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset'
+[2016.11.30-18.51.27:040][803]LogSavePackage: Total save time: 12.228072ms
+[2016.11.30-18.51.27:040][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset
+[2016.11.30-18.56.37:070][826]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.033
+[2016.11.30-18.56.37:076][826]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/UI_OnItemSelected] ([1] browsable assets)...
+[2016.11.30-18.56.37:076][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/UI_OnItemSelected]
+[2016.11.30-18.56.37:089][826]LogSavePackage: Save=7.484527ms
+[2016.11.30-18.56.37:089][826]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelected_Auto37C63D14645655E6723D1CE99E000C3C9.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/UI_OnItemSelected_Auto3.uasset'
+[2016.11.30-18.56.37:091][826]LogSavePackage: Total save time: 12.699060ms
+[2016.11.30-18.56.37:091][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/UI_OnItemSelected_Auto3.uasset
+[2016.11.30-18.56.37:091][826]LogFileHelpers: Auto-saving content packages took 0.021
+[2016.11.30-18.57.05:669][917]BlueprintLog: New page: Compile UI_OnItemSelected
+[2016.11.30-18.57.05:744][917]BlueprintEditorCompileResults: Info [2086.40] Compile of UI_OnItemSelected successful! [in 75 ms]
+[2016.11.30-18.57.06:530][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/UI_OnItemSelected" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset" SILENT=true
+[2016.11.30-18.57.06:540][925]LogSavePackage: Save=6.382318ms
+[2016.11.30-18.57.06:540][925]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelectedA0593B3E48BB69FE6077ADB1BCAFC429.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset'
+[2016.11.30-18.57.06:543][925]LogSavePackage: Total save time: 12.022227ms
+[2016.11.30-18.57.06:543][925]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset
+[2016.11.30-18.58.19:085][914]BlueprintLog: New page: Compile UI_OnItemSelected
+[2016.11.30-18.58.19:172][914]BlueprintEditorCompileResults: Info [2159.82] Compile of UI_OnItemSelected successful! [in 87 ms]
+[2016.11.30-18.58.20:272][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/UI_OnItemSelected" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset" SILENT=true
+[2016.11.30-18.58.20:284][926]LogSavePackage: Save=7.817812ms
+[2016.11.30-18.58.20:284][926]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelectedA01E88F748C36115B3419DBB44690002.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset'
+[2016.11.30-18.58.20:287][926]LogSavePackage: Total save time: 13.781883ms
+[2016.11.30-18.58.20:287][926]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset
+[2016.11.30-19.02.11:599][248]BlueprintLog: New page: Compile UI_OnItemSelected
+[2016.11.30-19.02.11:750][248]BlueprintEditorCompileResults: Info [2392.40] Compile of UI_OnItemSelected successful! [in 151 ms]
+[2016.11.30-19.02.12:837][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/UI_OnItemSelected" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset" SILENT=true
+[2016.11.30-19.02.12:854][260]LogSavePackage: Save=10.152237ms
+[2016.11.30-19.02.12:854][260]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelected892914B0495486DD863D6EBDD38F790E.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset'
+[2016.11.30-19.02.12:857][260]LogSavePackage: Total save time: 17.549518ms
+[2016.11.30-19.02.12:857][260]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset
+[2016.11.30-19.03.36:665][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/UI_OnItemSelected" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset" SILENT=true
+[2016.11.30-19.03.36:678][579]LogSavePackage: Save=8.952522ms
+[2016.11.30-19.03.36:678][579]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelected4F31B798424F014AC654849745098FBA.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset'
+[2016.11.30-19.03.36:680][579]LogSavePackage: Total save time: 13.602842ms
+[2016.11.30-19.03.36:680][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset
+[2016.11.30-19.26.08:664][716]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-19.26.09:824][727]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-00.26.48:194][274]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-00.30.45:136][192]LogEditorTransaction: Undo Rename Node
+[2016.12.01-00.30.52:536][340]BlueprintLog: New page: Compile UI_OnItemSelected
+[2016.12.01-00.30.52:618][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026BA929E40
+[2016.12.01-00.30.52:628][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002701DB4900
+[2016.12.01-00.30.52:628][340]BlueprintEditorCompileResults: Info [2113.28] Compile of UI_OnItemSelected successful! [in 90 ms]
+[2016.12.01-00.32.46:550][ 18]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.026
+[2016.12.01-00.32.46:556][ 18]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/UI_OnItemSelected] ([1] browsable assets)...
+[2016.12.01-00.32.46:556][ 18]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/UI_OnItemSelected]
+[2016.12.01-00.32.46:576][ 18]LogSavePackage: Save=13.268128ms
+[2016.12.01-00.32.46:576][ 18]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelected_Auto428A167524D57DB30D88445B1C749F4ED.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/UI_OnItemSelected_Auto4.uasset'
+[2016.12.01-00.32.46:578][ 18]LogSavePackage: Total save time: 19.276392ms
+[2016.12.01-00.32.46:578][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/UI_OnItemSelected_Auto4.uasset
+[2016.12.01-00.32.46:578][ 18]LogFileHelpers: Auto-saving content packages took 0.027
+[2016.12.01-00.36.21:063][289]LogEditorTransaction: Undo Add Node
+[2016.12.01-00.37.04:221][337]BlueprintLog: New page: Compile UI_OnItemSelected
+[2016.12.01-00.37.04:304][337]BlueprintEditorCompileResults: Info [2484.96] Compile of UI_OnItemSelected successful! [in 83 ms]
+[2016.12.01-00.42.47:483][740]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.031
+[2016.12.01-00.42.47:492][740]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/UI_OnItemSelected] ([1] browsable assets)...
+[2016.12.01-00.42.47:492][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/UI_OnItemSelected]
+[2016.12.01-00.42.47:522][740]LogSavePackage: Save=22.890644ms
+[2016.12.01-00.42.47:522][740]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelected_Auto58D1AF4B34658FDCDEBA5FDB0311507EC.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/UI_OnItemSelected_Auto5.uasset'
+[2016.12.01-00.42.47:523][740]LogSavePackage: Total save time: 29.863693ms
+[2016.12.01-00.42.47:524][740]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/UI_OnItemSelected_Auto5.uasset
+[2016.12.01-00.42.47:524][740]LogFileHelpers: Auto-saving content packages took 0.040
+[2016.12.01-00.44.43:619][288]BlueprintLog: New page: Compile UI_OnItemSelected
+[2016.12.01-00.44.43:720][288]BlueprintEditorCompileResults: Info [2944.37] Compile of UI_OnItemSelected successful! [in 101 ms]
+[2016.12.01-00.44.45:432][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/UI_OnItemSelected" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset" SILENT=true
+[2016.12.01-00.44.45:458][303]LogSavePackage: Save=21.774466ms
+[2016.12.01-00.44.45:458][303]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelected9187183F4B7E42FFBDFAD882FA6794C0.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset'
+[2016.12.01-00.44.45:461][303]LogSavePackage: Total save time: 27.890496ms
+[2016.12.01-00.44.45:461][303]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset
+[2016.12.01-00.45.13:109][456]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-00.45.50:562][398]BlueprintLog: New page: Compile UI_OnItemSelected
+[2016.12.01-00.45.50:731][398]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026BA957060
+[2016.12.01-00.45.50:731][398]BlueprintEditorCompileResults: Info [3011.38] Compile of UI_OnItemSelected successful! [in 168 ms]
+[2016.12.01-00.45.51:708][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/UI_OnItemSelected" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset" SILENT=true
+[2016.12.01-00.45.51:733][408]LogSavePackage: Save=19.813240ms
+[2016.12.01-00.45.51:733][408]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UI_OnItemSelected3096F28D42930FADA4F98B923F180C56.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset'
+[2016.12.01-00.45.51:736][408]LogSavePackage: Total save time: 26.324138ms
+[2016.12.01-00.45.51:736][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/UI_OnItemSelected.uasset
+[2016.12.01-00.47.17:354][682]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.47.17:354][682]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.47.17:354][682]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.48.00:581][133]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.01-00.48.03:152][412]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.48.03:152][412]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.48.03:152][412]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.48.06:256][445]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-00.48.06:299][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026C95CFA60
+[2016.12.01-00.48.06:300][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026C95CF9C0
+[2016.12.01-00.48.06:359][445]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.48.06:359][445]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.48.06:359][445]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.48.06:437][445]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.48.06:437][445]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.48.06:437][445]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.48.06:439][445]BlueprintEditorCompileResults: Info [3147.09] Compile of ItemWorldActor successful! [in 183 ms]
+[2016.12.01-00.48.35:049][830]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.48.35:049][830]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.48.35:049][830]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.48.44:216][924]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.48.44:216][924]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.48.44:216][924]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.48.54:646][925]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.48.54:646][925]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.48.54:646][925]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.48.54:653][925]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.48.54:653][925]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.48.54:653][925]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.48.54:659][925]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.48.54:659][925]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.48.54:659][925]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.49.02:213][  5]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.49.02:213][  5]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.49.02:213][  5]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.49.12:357][169]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.49.12:357][169]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.49.12:357][169]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.49.22:746][799]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.49.22:746][799]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.49.22:746][799]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.50.10:638][525]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.50.10:638][525]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.50.10:638][525]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.50.12:669][631]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.50.12:669][631]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.50.12:669][631]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.50.12:676][631]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.50.12:676][631]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.50.12:676][631]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.50.12:681][631]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.50.12:681][631]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.50.12:681][631]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_1
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.50.24:100][748]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-00.50.24:244][748]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.50.24:244][748]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.50.24:244][748]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.50.24:323][748]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.50.24:324][748]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.50.24:324][748]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.50.24:326][748]BlueprintEditorCompileResults: Info [3284.98] Compile of ItemWorldActor successful! [in 226 ms]
+[2016.12.01-00.50.27:148][780]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.50.27:148][780]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.50.27:148][780]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.50.27:150][780]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.50.27:150][780]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.50.27:150][780]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.50.31:804][829]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-00.50.31:902][829]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.50.31:902][829]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.50.31:902][829]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.50.32:021][829]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.50.32:021][829]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.50.32:021][829]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.50.32:024][829]BlueprintEditorCompileResults: Info [3292.68] Compile of ItemWorldActor successful! [in 219 ms]
+[2016.12.01-00.50.32:649][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-00.50.32:672][837]LogSavePackage: Save=16.403978ms
+[2016.12.01-00.50.32:672][837]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActorDFAC720F44E443F26A1FE7A8776002C5.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-00.50.32:675][837]LogSavePackage: Total save time: 23.915302ms
+[2016.12.01-00.50.32:675][837]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-00.51.25:299][232]LogEditorTransaction: Undo Move Node
+[2016.12.01-00.51.25:305][232]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.51.25:305][232]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.51.25:305][232]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.53.12:415][267]LogSavePackage: Save=2249.569336ms
+[2016.12.01-00.53.12:415][267]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap_Auto6F52D6E5A4A5657E26FEB43B2A847024B.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap'
+[2016.12.01-00.53.12:417][267]LogSavePackage: Total save time: 2509.624369ms
+[2016.12.01-00.53.12:417][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap
+[2016.12.01-00.53.12:419][267]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.546
+[2016.12.01-00.53.12:419][267]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.546
+[2016.12.01-00.53.12:425][267]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/Item_Misc_Apple_WA] ([1] browsable assets)...
+[2016.12.01-00.53.12:425][267]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/Item_Misc_Apple_WA]
+[2016.12.01-00.53.12:438][267]LogSavePackage: Save=7.350813ms
+[2016.12.01-00.53.12:438][267]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Item_Misc_Apple_WA_Auto6AF7A1A3C4553AFA981BD878A6B7376FE.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Item_Misc_Apple_WA_Auto6.uasset'
+[2016.12.01-00.53.12:440][267]LogSavePackage: Total save time: 12.849025ms
+[2016.12.01-00.53.12:440][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Item_Misc_Apple_WA_Auto6.uasset
+[2016.12.01-00.53.12:445][267]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/ItemWorldActor] ([1] browsable assets)...
+[2016.12.01-00.53.12:445][267]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/ItemWorldActor]
+[2016.12.01-00.53.12:469][267]LogSavePackage: Save=20.138828ms
+[2016.12.01-00.53.12:469][267]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActor_Auto65382C3C9438E1A29DC715FACCDA92F5C.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/ItemWorldActor_Auto6.uasset'
+[2016.12.01-00.53.12:471][267]LogSavePackage: Total save time: 24.565052ms
+[2016.12.01-00.53.12:471][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/ItemWorldActor_Auto6.uasset
+[2016.12.01-00.53.12:471][267]LogFileHelpers: Auto-saving content packages took 0.050
+[2016.12.01-00.55.22:489][732]LogEditorTransaction: Undo Add Node
+[2016.12.01-00.55.22:496][732]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.55.22:496][732]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.55.22:496][732]LogScript:Warning: Accessed None 'ItemReference'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.56.17:861][988]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-00.56.17:946][988]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.56.17:946][988]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.56.17:946][988]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.56.18:058][988]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.56.18:058][988]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.56.18:058][988]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_12:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.56.18:060][988]BlueprintEditorCompileResults: Info [3638.71] Compile of ItemWorldActor successful! [in 199 ms]
+[2016.12.01-00.56.18:497][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-00.56.18:525][994]LogSavePackage: Save=21.864557ms
+[2016.12.01-00.56.18:525][994]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActor74A5A55146CE8F88D7CCC1892385A9C1.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-00.56.18:529][994]LogSavePackage: Total save time: 29.708598ms
+[2016.12.01-00.56.18:529][994]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-00.57.50:448][133]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-00.59.17:710][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-00.59.17:738][944]LogSavePackage: Save=24.134262ms
+[2016.12.01-00.59.17:738][944]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActor2C919F064F38649C0D17608CFA7538F2.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-00.59.17:742][944]LogSavePackage: Total save time: 30.724708ms
+[2016.12.01-00.59.17:742][944]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-00.59.20:445][971]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-00.59.39:815][172]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-00.59.42:043][193]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-00.59.42:043][193]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-00.59.42:043][193]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_15:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-00.59.42:153][196]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.02.08:921][579]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.02.08:921][579]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.02.08:921][579]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_15:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.02.08:945][579]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.02.08:945][579]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.02.08:945][579]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_15:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.02.09:233][582]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.02.33:338][276]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.02.33:338][276]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.02.33:338][276]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_15:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.02.33:339][276]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.02.33:339][276]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.02.33:339][276]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_15:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.02.33:434][278]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.05.20:365][193]LogEditorTransaction: Undo Add Node
+[2016.12.01-01.05.20:370][193]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.05.20:370][193]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.05.20:370][193]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_15:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.05.32:530][ 17]LogEditorTransaction: Undo Add Node
+[2016.12.01-01.05.32:537][ 17]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.05.32:537][ 17]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.05.32:537][ 17]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_15:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.06.45:387][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026BB3F2CA0
+[2016.12.01-01.06.45:389][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026BB3F0C20
+[2016.12.01-01.06.47:250][150]LogSavePackage: Save=1787.272827ms
+[2016.12.01-01.06.47:250][150]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap_Auto7A543EDC24214908D6ADAE48AE3595F96.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto7.umap'
+[2016.12.01-01.06.47:253][150]LogSavePackage: Total save time: 1851.038191ms
+[2016.12.01-01.06.47:253][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto7.umap
+[2016.12.01-01.06.47:255][150]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.894
+[2016.12.01-01.06.47:255][150]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.894
+[2016.12.01-01.06.47:261][150]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/Item_Misc_Apple_WA] ([1] browsable assets)...
+[2016.12.01-01.06.47:261][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/Item_Misc_Apple_WA]
+[2016.12.01-01.06.47:275][150]LogSavePackage: Save=7.638197ms
+[2016.12.01-01.06.47:275][150]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Item_Misc_Apple_WA_Auto710FBC0F44512B4DB10573BB66B3ADADB.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Item_Misc_Apple_WA_Auto7.uasset'
+[2016.12.01-01.06.47:277][150]LogSavePackage: Total save time: 13.581455ms
+[2016.12.01-01.06.47:277][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Item_Misc_Apple_WA_Auto7.uasset
+[2016.12.01-01.06.47:282][150]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/ItemWorldActor] ([1] browsable assets)...
+[2016.12.01-01.06.47:282][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/ItemWorldActor]
+[2016.12.01-01.06.47:311][150]LogSavePackage: Save=22.530273ms
+[2016.12.01-01.06.47:311][150]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActor_Auto7220F33404A93ACFFEEED258586266239.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/ItemWorldActor_Auto7.uasset'
+[2016.12.01-01.06.47:313][150]LogSavePackage: Total save time: 28.708741ms
+[2016.12.01-01.06.47:313][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/ItemWorldActor_Auto7.uasset
+[2016.12.01-01.06.47:313][150]LogFileHelpers: Auto-saving content packages took 0.057
+[2016.12.01-01.07.18:612][779]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.07.21:316][807]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-01.07.21:362][807]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.07.21:362][807]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.07.21:362][807]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_15:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.07.21:479][807]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.07.21:479][807]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.07.21:479][807]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_15:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.07.21:482][807]BlueprintEditorCompileResults: Info [4302.13] Compile of ItemWorldActor successful! [in 165 ms]
+[2016.12.01-01.07.22:491][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-01.07.22:517][819]LogSavePackage: Save=22.058998ms
+[2016.12.01-01.07.22:517][819]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActor6B88021647ED22A7973F31A2EC523F3E.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-01.07.22:520][819]LogSavePackage: Total save time: 28.138250ms
+[2016.12.01-01.07.22:520][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-01.07.25:493][853]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.07.28:003][  9]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.07.47:153][204]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.07.49:301][226]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.07.50:699][237]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.07.50:699][237]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.07.50:699][237]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.07.58:836][825]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.07.58:836][825]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.07.58:836][825]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.07.58:837][825]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.07.58:837][825]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.07.58:837][825]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.07.59:029][828]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.08.13:155][556]LogEditorTransaction: Undo Add Node
+[2016.12.01-01.08.13:161][556]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.08.13:161][556]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.08.13:161][556]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.09.20:174][693]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.09.23:326][727]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.09.27:084][767]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.09.54:456][ 97]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.09.55:757][109]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.09.55:757][109]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.09.55:757][109]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.09.59:741][234]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.10.01:182][249]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.10.01:182][249]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.10.01:182][249]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.10.01:264][251]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.10.01:505][254]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.10.05:820][468]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.10.06:704][477]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.10.06:705][477]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.10.06:705][477]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.10.07:890][490]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.10.07:890][490]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.10.07:890][490]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_4
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.10.07:898][490]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.10.07:898][490]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.10.10:411][634]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.10.11:826][705]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.10.26:233][946]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.10.26:233][946]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.10.26:272][946]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.10.26:272][946]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.10.26:392][948]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.12.00:116][ 11]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-01.12.00:227][ 11]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.12.00:227][ 11]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.12.00:227][ 11]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.12.00:323][ 11]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.12.00:323][ 11]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.12.00:323][ 11]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.12.00:325][ 11]BlueprintEditorCompileResults: Info [4580.98] Compile of ItemWorldActor successful! [in 209 ms]
+[2016.12.01-01.12.01:055][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-01.12.01:084][ 16]LogSavePackage: Save=22.771755ms
+[2016.12.01-01.12.01:084][ 16]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActor77FCF2D447D6AB24AA616CB33828CC0E.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-01.12.01:087][ 16]LogSavePackage: Total save time: 30.395411ms
+[2016.12.01-01.12.01:087][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-01.12.02:049][ 27]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.12.23:888][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-01.12.23:916][125]LogSavePackage: Save=23.254721ms
+[2016.12.01-01.12.23:916][125]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActorEF0EED7B4600A5C342DB08A6C55BDF88.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-01.12.23:918][125]LogSavePackage: Total save time: 28.253436ms
+[2016.12.01-01.12.23:918][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-01.16.41:043][415]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-01.16.41:100][415]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.16.41:100][415]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.16.41:100][415]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.16.41:224][415]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.16.41:224][415]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.16.41:224][415]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_16:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.01-01.16.41:227][415]BlueprintEditorCompileResults: Info [4861.88] Compile of ItemWorldActor successful! [in 183 ms]
+[2016.12.01-01.16.42:168][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-01.16.42:199][426]LogSavePackage: Save=25.225067ms
+[2016.12.01-01.16.42:199][426]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActorFBB56BD848E116E3F69DC8A81E4352B4.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-01.16.42:202][426]LogSavePackage: Total save time: 31.605676ms
+[2016.12.01-01.16.42:202][426]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-01.16.46:702][474]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.16.55:545][562]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.17.41:072][957]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.17.50:907][ 36]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.17.51:428][ 36]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.17.51:428][ 36]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.17.51:723][ 41]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.18.07:172][937]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.18.07:172][937]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.18.26:319][ 66]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.18.26:319][ 66]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.20.48:294][727]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1761.EdGraphPin_40071''
+[2016.12.01-01.20.48:294][727]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1760.EdGraphPin_40069''
+[2016.12.01-01.20.48:295][727]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Message_9.EdGraphPin_40079''
+[2016.12.01-01.20.48:295][727]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3489.EdGraphPin_40077''
+[2016.12.01-01.20.48:295][727]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Message_9.EdGraphPin_40081''
+[2016.12.01-01.22.01:266][950]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.22.08:382][137]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.22.29:458][683]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-01.22.29:508][683]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000277F927600
+[2016.12.01-01.22.29:526][683]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.22.29:526][683]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.22.29:650][683]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.22.29:650][683]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.22.29:652][683]BlueprintEditorCompileResults: Info [5210.30] Compile of ItemWorldActor successful! [in 194 ms]
+[2016.12.01-01.22.31:240][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-01.22.31:284][701]LogSavePackage: Save=38.270531ms
+[2016.12.01-01.22.31:284][701]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActor86C5BC744E97E553F0EFCF9E14D0B1F6.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-01.22.31:288][701]LogSavePackage: Total save time: 46.320133ms
+[2016.12.01-01.22.31:288][701]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-01.22.34:327][733]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-01.22.34:373][733]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.22.34:373][733]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.22.34:492][733]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.22.34:492][733]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.22.34:494][733]BlueprintEditorCompileResults: Info [5215.15] Compile of ItemWorldActor successful! [in 167 ms]
+[2016.12.01-01.22.37:454][765]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.23.01:977][839]LogSavePackage: Save=2028.323853ms
+[2016.12.01-01.23.01:977][839]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap_Auto8A1FF6401442BAAFA4217CD9439396EEE.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto8.umap'
+[2016.12.01-01.23.01:984][839]LogSavePackage: Total save time: 2102.018442ms
+[2016.12.01-01.23.01:984][839]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto8.umap
+[2016.12.01-01.23.01:992][839]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.164
+[2016.12.01-01.23.01:992][839]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.164
+[2016.12.01-01.23.02:007][839]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/Item_Misc_Apple_WA] ([1] browsable assets)...
+[2016.12.01-01.23.02:007][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/Item_Misc_Apple_WA]
+[2016.12.01-01.23.02:028][839]LogSavePackage: Save=13.213388ms
+[2016.12.01-01.23.02:028][839]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Item_Misc_Apple_WA_Auto83DCE75554170E3F36DFF8C8EFC10ECB8.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Item_Misc_Apple_WA_Auto8.uasset'
+[2016.12.01-01.23.02:031][839]LogSavePackage: Total save time: 21.237329ms
+[2016.12.01-01.23.02:031][839]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Item_Misc_Apple_WA_Auto8.uasset
+[2016.12.01-01.23.02:043][839]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Inventory/NonHover_MAT] ([1] browsable assets)...
+[2016.12.01-01.23.02:067][839]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Inventory/NonHover_MAT.NonHover_MAT]
+[2016.12.01-01.23.02:067][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/NonHover_MAT]
+[2016.12.01-01.23.02:083][839]LogSavePackage: Save=13.272690ms
+[2016.12.01-01.23.02:083][839]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/NonHover_MAT_Auto8A475D46B4935B6FBB743BEBEB022B58A.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/NonHover_MAT_Auto8.uasset'
+[2016.12.01-01.23.02:087][839]LogSavePackage: Total save time: 17.417520ms
+[2016.12.01-01.23.02:087][839]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/NonHover_MAT_Auto8.uasset
+[2016.12.01-01.23.02:087][839]LogFileHelpers: Auto-saving content packages took 0.094
+[2016.12.01-01.23.02:811][843]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.23.07:778][857]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-01.23.07:827][857]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.23.07:827][857]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.23.07:944][857]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.23.07:944][857]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.23.07:946][857]BlueprintEditorCompileResults: Info [5248.60] Compile of ItemWorldActor successful! [in 167 ms]
+[2016.12.01-01.23.08:527][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-01.23.08:570][863]LogSavePackage: Save=37.784428ms
+[2016.12.01-01.23.08:570][863]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActor64E0199D494490DC6DEAA18A838F0F57.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-01.23.08:572][863]LogSavePackage: Total save time: 42.725548ms
+[2016.12.01-01.23.08:572][863]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-01.23.41:285][276]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-01.23.41:336][276]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.23.41:336][276]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.23.41:454][276]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.23.41:454][276]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.23.41:456][276]BlueprintEditorCompileResults: Info [5282.11] Compile of ItemWorldActor successful! [in 171 ms]
+[2016.12.01-01.23.42:076][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-01.23.42:119][283]LogSavePackage: Save=38.511158ms
+[2016.12.01-01.23.42:119][283]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActor4FE2D26348557FDBA385CCB64D150BD1.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-01.23.42:123][283]LogSavePackage: Total save time: 45.409512ms
+[2016.12.01-01.23.42:123][283]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-01.24.03:270][593]BlueprintLog: New page: Compile ItemWorldActor
+[2016.12.01-01.24.03:321][593]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.24.03:321][593]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.24.03:456][593]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.01-01.24.03:456][593]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.01-01.24.03:459][593]BlueprintEditorCompileResults: Info [5304.11] Compile of ItemWorldActor successful! [in 188 ms]
+[2016.12.01-01.24.04:190][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-01.24.04:237][599]LogSavePackage: Save=40.007092ms
+[2016.12.01-01.24.04:237][599]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActor65B938A240C890E8E117FEB46E7DF00F.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-01.24.04:238][599]LogSavePackage: Total save time: 46.289340ms
+[2016.12.01-01.24.04:239][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-01.33.04:690][896]LogSavePackage: Save=1742.194336ms
+[2016.12.01-01.33.04:690][896]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap_Auto96079EFBC4F09F2473A96FD8BA8C36F38.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto9.umap'
+[2016.12.01-01.33.04:692][896]LogSavePackage: Total save time: 1804.294962ms
+[2016.12.01-01.33.04:692][896]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto9.umap
+[2016.12.01-01.33.04:694][896]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.856
+[2016.12.01-01.33.04:694][896]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.856
+[2016.12.01-01.33.04:700][896]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/Item_Misc_Apple_WA] ([1] browsable assets)...
+[2016.12.01-01.33.04:700][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/Item_Misc_Apple_WA]
+[2016.12.01-01.33.04:713][896]LogSavePackage: Save=7.373621ms
+[2016.12.01-01.33.04:713][896]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Item_Misc_Apple_WA_Auto972F8F98B4F1DD4589C627DBE24B34C90.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Item_Misc_Apple_WA_Auto9.uasset'
+[2016.12.01-01.33.04:714][896]LogSavePackage: Total save time: 12.146533ms
+[2016.12.01-01.33.04:714][896]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Item_Misc_Apple_WA_Auto9.uasset
+[2016.12.01-01.33.04:714][896]LogFileHelpers: Auto-saving content packages took 0.019
+[2016.12.01-01.46.30:775][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/ItemWorldActor" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset" SILENT=true
+[2016.12.01-01.46.30:819][380]LogSavePackage: Save=37.550076ms
+[2016.12.01-01.46.30:819][380]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/ItemWorldActor7A4D333540707D5D8CA986B8C3F5F189.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset'
+[2016.12.01-01.46.30:821][380]LogSavePackage: Total save time: 44.662543ms
+[2016.12.01-01.46.30:821][380]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/ItemWorldActor.uasset
+[2016.12.01-01.46.38:283][605]LogSavePackage: Save=1726.040405ms
+[2016.12.01-01.46.38:283][605]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMapA80037F049C1781A4B810188188861F4.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.12.01-01.46.38:294][605]LogSavePackage: Total save time: 1800.774224ms
+[2016.12.01-01.46.38:294][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.12.01-01.46.38:319][605]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.938
+[2016.12.01-01.46.38:327][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Item_Misc_Apple_WA" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Item_Misc_Apple_WA.uasset" SILENT=true
+[2016.12.01-01.46.38:338][605]LogSavePackage: Save=7.445753ms
+[2016.12.01-01.46.38:338][605]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Item_Misc_Apple_WAEF39D3E84F064AB45A3AC49878665B1C.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Item_Misc_Apple_WA.uasset'
+[2016.12.01-01.46.38:342][605]LogSavePackage: Total save time: 13.457436ms
+[2016.12.01-01.46.38:342][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Item_Misc_Apple_WA.uasset
+[2016.12.01-01.46.38:351][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/NewWidgetBlueprint" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/NewWidgetBlueprint.uasset" SILENT=true
+[2016.12.01-01.46.38:354][605]LogSavePackage: Save=1.131004ms
+[2016.12.01-01.46.38:354][605]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/NewWidgetBlueprint9E4AE9E14420DE6C9E2552BA8BFC864B.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/NewWidgetBlueprint.uasset'
+[2016.12.01-01.46.38:356][605]LogSavePackage: Total save time: 3.902774ms
+[2016.12.01-01.46.38:356][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/NewWidgetBlueprint.uasset
+[2016.12.01-01.46.38:381][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/NonHover_MAT" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/NonHover_MAT.uasset" SILENT=true
+[2016.12.01-01.46.38:392][605]LogSavePackage: Save=9.243043ms
+[2016.12.01-01.46.38:392][605]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/NonHover_MAT2314F6484CD7D1F22031B2BFF7252460.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/NonHover_MAT.uasset'
+[2016.12.01-01.46.38:394][605]LogSavePackage: Total save time: 11.960357ms
+[2016.12.01-01.46.38:394][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/NonHover_MAT.uasset
+[2016.12.01-01.46.38:491][608]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.01-01.46.52:560][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002701517C40
+[2016.12.01-01.46.52:560][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027060BE7A0
+[2016.12.01-01.46.52:560][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026C9619080
+[2016.12.01-01.46.52:560][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002701DB5A80
+[2016.12.01-01.46.52:560][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027812CCEA0
+[2016.12.01-01.46.52:560][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002698965C60
+[2016.12.01-01.46.52:634][751]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.01-01.46.52:824][752]Cmd: QUIT_EDITOR
+[2016.12.01-01.46.52:958][752]LogExit: Preparing to exit.
+[2016.12.01-01.46.53:677][752]LogExit: Editor shut down
+[2016.12.01-01.46.53:677][752]LogExit: Transaction tracking system shut down
+[2016.12.01-01.46.53:684][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026D5EACD60
+[2016.12.01-01.46.53:686][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026E4DAF880
+[2016.12.01-01.46.53:687][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026E4CA0360
+[2016.12.01-01.46.53:687][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026E36C7BA0
+[2016.12.01-01.46.53:687][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000026E36C7E20
+[2016.12.01-01.46.53:885][752]LogExit: Object subsystem successfully closed.
+[2016.12.01-01.46.53:902][752]LogD3D11RHI: Shutdown
+[2016.12.01-01.46.53:902][752]LogD3D11RHI: CleanupD3DDevice
+[2016.12.01-01.46.53:905][752]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.01-01.46.54:098][752]LogModuleManager: Shutting down and abandoning module SequencerWidgets (201)
+[2016.12.01-01.46.54:098][752]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.12.01-01.46.54:098][752]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.12.01-01.46.54:098][752]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.12.01-01.46.54:098][752]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.12.01-01.46.54:098][752]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.12.01-01.46.54:098][752]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.12.01-01.46.54:098][752]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.12.01-01.46.54:102][752]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.12.01-01.46.54:738][752]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.12.01-01.46.54:738][752]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.12.01-01.46.54:738][752]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.12.01-01.46.54:738][752]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.12.01-01.46.54:738][752]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.12.01-01.46.54:739][752]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.12.01-01.46.54:741][752]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.12.01-01.46.54:935][752]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.12.01-01.46.54:935][752]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.12.01-01.46.54:935][752]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.12.01-01.46.54:935][752]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.12.01-01.46.54:935][752]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.12.01-01.46.54:935][752]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.12.01-01.46.54:935][752]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.12.01-01.46.54:935][752]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.12.01-01.46.54:948][752]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.12.01-01.46.54:948][752]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.12.01-01.46.54:948][752]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.12.01-01.46.54:948][752]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.12.01-01.46.54:948][752]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.12.01-01.46.54:948][752]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.12.01-01.46.54:948][752]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.12.01-01.46.54:948][752]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.12.01-01.46.54:948][752]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.12.01-01.46.54:948][752]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.12.01-01.46.54:948][752]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.12.01-01.46.54:949][752]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.12.01-01.46.54:950][752]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.12.01-01.46.54:953][752]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.12.01-01.46.55:026][752]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.12.01-01.46.55:027][752]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.12.01-01.46.55:027][752]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.12.01-01.46.55:127][752]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.12.01-01.46.55:127][752]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.12.01-01.46.55:127][752]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.12.01-01.46.55:132][752]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.12.01-01.46.55:135][752]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.12.01-01.46.55:135][752]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.12.01-01.46.55:135][752]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.12.01-01.46.55:135][752]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.12.01-01.46.55:135][752]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.12.01-01.46.55:135][752]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.12.01-01.46.55:135][752]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.12.01-01.46.55:135][752]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.12.01-01.46.55:135][752]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.12.01-01.46.55:135][752]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.12.01-01.46.55:182][752]LogDerivedDataCache: Shutdown
+[2016.12.01-01.46.55:182][752]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.12.01-01.46.55:182][752]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.12.01-01.46.55:182][752]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.12.01-01.46.55:182][752]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.12.01-01.46.55:183][752]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.12.01-01.46.57:187][752]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.12.01-01.46.57:187][752]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.12.01-01.46.57:187][752]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.12.01-01.46.57:187][752]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.01-01.46.57:187][752]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.01-01.46.57:187][752]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.01-01.46.57:187][752]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.01-01.46.57:196][752]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.01-01.46.57:196][752]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.01-01.46.57:196][752]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.01-01.46.57:196][752]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.01-01.46.57:196][752]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.01-01.46.57:196][752]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.01-01.46.57:196][752]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.01-01.46.57:196][752]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.01-01.46.57:196][752]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.01-01.46.57:196][752]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.01-01.46.57:197][752]LogExit: Exiting.
+[2016.12.01-01.46.57:198][752]Log file closed, 11/30/16 20:46:57

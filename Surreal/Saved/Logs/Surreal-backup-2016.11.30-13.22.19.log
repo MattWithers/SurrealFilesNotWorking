@@ -1,0 +1,497 @@
+﻿[2016.11.30-16.33.34:958][  0]Log file open, 11/30/16 11:33:34
+[2016.11.30-16.33.34:958][  0]LogInit:Display: Running engine for game: Surreal
+[2016.11.30-16.33.34:958][  0]LogPlatformFile: Not using cached read wrapper
+[2016.11.30-16.33.34:958][  0]LogInit:Display: RandInit(1946454029) SRandInit(1946454030).
+[2016.11.30-16.33.34:958][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.11.30-16.33.34:958][  0]LogStats: Stats thread started at 0.097736
+[2016.11.30-16.33.34:958][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.11.30-16.33.34:958][  0]LogInit: API Version: 2758231
+[2016.11.30-16.33.34:958][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.11.30-16.33.34:958][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.11.30-16.33.34:958][  0]LogInit: Build Configuration: Development
+[2016.11.30-16.33.34:958][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.11.30-16.33.34:958][  0]LogInit: Command line: 
+[2016.11.30-16.33.34:958][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.11.30-16.33.34:958][  0]LogInit: Rocket: 1
+[2016.11.30-16.33.35:011][  0]LogInit: Using libcurl 7.41.0
+[2016.11.30-16.33.35:011][  0]LogInit:  - built for x86_64-pc-win32
+[2016.11.30-16.33.35:011][  0]LogInit:  - supports SSL with WinSSL
+[2016.11.30-16.33.35:011][  0]LogInit:  - other features:
+[2016.11.30-16.33.35:011][  0]LogInit:      CURL_VERSION_SSL
+[2016.11.30-16.33.35:011][  0]LogInit:      CURL_VERSION_IPV6
+[2016.11.30-16.33.35:011][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.11.30-16.33.35:011][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.11.30-16.33.35:011][  0]LogInit:      CURL_VERSION_IDN
+[2016.11.30-16.33.35:011][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.11.30-16.33.35:011][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.11.30-16.33.35:011][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.11.30-16.33.35:011][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.11.30-16.33.35:011][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.11.30-16.33.35:104][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.11.30-16.33.35:108][  0]LogInit: Object subsystem initialized
+[2016.11.30-16.33.35:109][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.30-16.33.35:109][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.30-16.33.35:131][  0]LogInit: Computer: MYSTERYMACHINE
+[2016.11.30-16.33.35:131][  0]LogInit: User: Matthew
+[2016.11.30-16.33.35:131][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.11.30-16.33.35:131][  0]LogInit: High frequency timer resolution =3.507503 MHz
+[2016.11.30-16.33.35:131][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.30-16.33.35:131][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.30-16.33.35:131][  0]LogMemory: Process Physical Memory: 54.80 MB used, 54.80 MB peak
+[2016.11.30-16.33.35:131][  0]LogMemory: Process Virtual Memory: 58.59 MB used, 58.59 MB peak
+[2016.11.30-16.33.35:131][  0]LogMemory: Physical Memory: 5764.95 MB used, 16325.88 MB total
+[2016.11.30-16.33.35:131][  0]LogMemory: Virtual Memory: 367.62 MB used, 134217728.00 MB total
+[2016.11.30-16.33.35:227][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2016.11.30-16.33.35:644][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.11.30-16.33.35:644][  0]LogD3D11RHI: Adapter has 3975MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 2 output[s]
+[2016.11.30-16.33.35:645][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.11.30-16.33.35:645][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.11.30-16.33.35:646][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.11.30-16.33.35:649][  0]LogD3D11RHI: !Direct3DDevice
+[2016.11.30-16.33.35:649][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.30-16.33.35:659][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.30-16.33.35:675][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Intermediate/Shaders/WorkingDirectory/8944/).
+[2016.11.30-16.33.35:675][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matthew/AppData/Local/Temp/UnrealShaderWorkingDir/F50AB3CD4E88B8967425DEA602F5E234/'.
+[2016.11.30-16.33.35:675][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.30-16.33.36:317][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.30-16.33.36:320][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.30-16.33.36:324][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.30-16.33.36:327][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.30-16.33.36:330][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.30-16.33.36:333][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.30-16.33.36:335][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.30-16.33.36:338][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.30-16.33.36:341][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.30-16.33.36:343][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.30-16.33.36:346][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.30-16.33.36:351][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.30-16.33.36:351][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.30-16.33.36:352][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.30-16.33.36:368][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.30-16.33.36:370][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.30-16.33.36:373][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.30-16.33.36:376][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.30-16.33.36:376][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.30-16.33.36:454][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.30-16.33.36:501][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.30-16.33.36:501][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.11.30-16.33.36:501][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.30-16.33.36:501][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.30-16.33.36:501][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.30-16.33.36:501][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.30-16.33.36:549][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.30-16.33.36:562][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matthew/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.30-16.33.36:722][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.30-16.33.36:725][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.11.30-16.33.36:823][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.30-16.33.36:823][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.30-16.33.37:032][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.30-16.33.37:664][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.30-16.33.37:757][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.11.30-16.33.37:906][  0]SourceControl: Info Source control is disabled
+[2016.11.30-16.33.37:907][  0]SourceControl: Info Source control is disabled
+[2016.11.30-16.33.37:917][  0]SourceControl: Info Source control is disabled
+[2016.11.30-16.33.37:929][  0]SourceControl: Info Source control is disabled
+[2016.11.30-16.33.38:203][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.11.30-16.33.38:203][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.11.30-16.33.38:266][  0]LogEngine: Initializing Engine...
+[2016.11.30-16.33.38:268][  0]OCULUS: Info: 11/30/16 16:33:38: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_8.dll
+
+[2016.11.30-16.33.38:285][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.11.30-16.33.38:417][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.30-16.33.38:424][  0]LogInit: XAudio2 using 'NS-24L240A13-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.30-16.33.38:433][  0]LogInit: FAudioDevice initialized.
+[2016.11.30-16.33.38:468][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.30-16.33.38:476][  0]LogInit: Texture streaming: Enabled
+[2016.11.30-16.33.38:482][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.11.30-16.33.38:482][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.11.30-16.33.38:482][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 30846442452bc96b6507b6becd57ee02|7d14a1fe045f4d43a4f78de1f548c9bc|31702dc6-e2b8-4b86-bdc9-c7ff476772df
+[2016.11.30-16.33.38:482][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.11.30-16.33.38:492][  0]LogInit: Transaction tracking system initialized
+[2016.11.30-16.33.38:520][  0]BlueprintLog: New page: Editor Load
+[2016.11.30-16.33.38:604][  0]LocalizationService: Info Localization service is disabled
+[2016.11.30-16.33.38:683][  0]LogConsoleResponse:Display: 
+[2016.11.30-16.33.38:800][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.11.30-16.33.38:859][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Content/' took 0.02s
+[2016.11.30-16.33.38:859][  0]SourceControl: Info Source control is disabled
+[2016.11.30-16.33.38:860][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.30-16.33.38:891][  0]LightingResults: New page: Lighting Build
+[2016.11.30-16.33.38:893][  0]MapCheck: New page: Map Check
+[2016.11.30-16.33.38:893][  0]LightingResults: New page: Lighting Build
+[2016.11.30-16.33.38:901][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFBE19A160
+[2016.11.30-16.33.39:039][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.11.30-16.33.39:418][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Inventory/Item_Misc_Apple_WA.Item_Misc_Apple_WA_C:UserConstructionScript; removing parent information, but keeping function
+[2016.11.30-16.33.40:195][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.30-16.33.40:267][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.30-16.33.40:267][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.30-16.33.40:342][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.799ms to complete.
+[2016.11.30-16.33.40:342][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.483
+[2016.11.30-16.33.40:438][  0]LogCollectionManager: Loaded 0 collections in 0.001201 seconds
+[2016.11.30-16.33.40:482][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Collections/' took 0.01s
+[2016.11.30-16.33.40:482][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Content/Developers/Matthew/Collections/' took 0.01s
+[2016.11.30-16.33.40:482][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Content/Collections/' took 0.01s
+[2016.11.30-16.33.40:482][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.11.30-16.33.40:489][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 1893 classes and 338 folders.
+[2016.11.30-16.33.40:495][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.30-16.33.40:638][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.30-16.33.40:641][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.30-16.33.40:660][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.30-16.33.40:665][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.30-16.33.40:687][  0]LogLoad: Full Startup: 6.32 seconds (BP compile: 0.19 seconds)
+[2016.11.30-16.33.41:026][  0]LogOcInput: OculusInput is initialized. Init status -3003. Runtime version: (Unable to load LibOVR)
+[2016.11.30-16.33.41:110][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:1).
+[2016.11.30-16.33.41:443][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.30-16.33.41:668][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.11.30-16.33.43:403][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2016.11.30-16.33.43:431][  6]LogAssetRegistry: Asset discovery search completed in 5.6850 seconds
+[2016.11.30-16.33.43:431][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2016.11.30-16.33.45:195][ 17]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-16.33.45:432][ 17]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.11.30-16.33.45:747][ 17]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.11.30-16.44.36:661][966]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.061
+[2016.11.30-16.44.36:666][966]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/Inventory] ([1] browsable assets)...
+[2016.11.30-16.44.36:666][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/Inventory]
+[2016.11.30-16.44.36:724][966]LogSavePackage: Save=48.844151ms
+[2016.11.30-16.44.36:724][966]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory_Auto1D27991F9463EB98F97F9A3B9F1095A43.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Inventory_Auto1.uasset'
+[2016.11.30-16.44.36:725][966]LogSavePackage: Total save time: 57.494462ms
+[2016.11.30-16.44.36:725][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Inventory_Auto1.uasset
+[2016.11.30-16.44.36:725][966]LogFileHelpers: Auto-saving content packages took 0.064
+[2016.11.30-16.47.53:557][ 24]BlueprintLog: New page: Compile Inventory
+[2016.11.30-16.47.53:651][ 24]BlueprintEditorCompileResults: Info [0859.29] Compile of Inventory successful! [in 93 ms]
+[2016.11.30-16.47.57:981][ 72]BlueprintLog: New page: Compile Inventory
+[2016.11.30-16.47.58:066][ 72]BlueprintEditorCompileResults: Info [0863.70] Compile of Inventory successful! [in 85 ms]
+[2016.11.30-16.49.04:211][905]BlueprintLog: New page: Compile Inventory
+[2016.11.30-16.49.04:306][905]BlueprintEditorCompileResults: Info [0929.95] Compile of Inventory successful! [in 95 ms]
+[2016.11.30-16.49.05:034][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Inventory" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset" SILENT=true
+[2016.11.30-16.49.05:095][913]LogSavePackage: Save=56.928818ms
+[2016.11.30-16.49.05:095][913]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/InventoryCADB500245B2E0C9735B3A8BFC565B97.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset'
+[2016.11.30-16.49.05:098][913]LogSavePackage: Total save time: 62.536512ms
+[2016.11.30-16.49.05:098][913]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset
+[2016.11.30-16.51.04:373][662]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-16.51.17:706][805]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-16.53.35:379][252]BlueprintLog: New page: Compile Inventory
+[2016.11.30-16.53.35:471][252]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF988F1800
+[2016.11.30-16.53.35:482][252]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C000A10B80
+[2016.11.30-16.53.35:482][252]BlueprintEditorCompileResults: Info [1201.12] Compile of Inventory successful! [in 102 ms]
+[2016.11.30-16.53.36:369][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Inventory" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset" SILENT=true
+[2016.11.30-16.53.36:429][261]LogSavePackage: Save=54.923119ms
+[2016.11.30-16.53.36:429][261]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/InventoryF5E1491245D2717F4B1C95B38DE03E2B.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset'
+[2016.11.30-16.53.36:433][261]LogSavePackage: Total save time: 62.080059ms
+[2016.11.30-16.53.36:433][261]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset
+[2016.11.30-16.53.37:920][279]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-16.54.06:448][944]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-16.58.55:587][972]BlueprintLog: New page: Compile Inventory
+[2016.11.30-16.58.55:675][972]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C000247B00
+[2016.11.30-16.58.55:684][972]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0001F8E00
+[2016.11.30-16.58.55:684][972]BlueprintEditorCompileResults: Info [1521.32] Compile of Inventory successful! [in 96 ms]
+[2016.11.30-16.58.56:518][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Inventory" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset" SILENT=true
+[2016.11.30-16.58.56:587][982]LogSavePackage: Save=62.931095ms
+[2016.11.30-16.58.56:587][982]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory191133FB44D331169971A5B3C5FAB5E0.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset'
+[2016.11.30-16.58.56:591][982]LogSavePackage: Total save time: 70.269648ms
+[2016.11.30-16.58.56:591][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset
+[2016.11.30-16.59.06:758][760]BlueprintLog: New page: Compile Inventory
+[2016.11.30-16.59.06:854][760]BlueprintEditorCompileResults: Info [1532.49] Compile of Inventory successful! [in 95 ms]
+[2016.11.30-16.59.07:473][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Inventory" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset" SILENT=true
+[2016.11.30-16.59.07:543][767]LogSavePackage: Save=66.262238ms
+[2016.11.30-16.59.07:543][767]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/InventoryA23B3A574911B2D1E9FCA9A81323E022.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset'
+[2016.11.30-16.59.07:545][767]LogSavePackage: Total save time: 70.316974ms
+[2016.11.30-16.59.07:545][767]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset
+[2016.11.30-17.02.40:313][471]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-17.03.13:885][713]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-17.03.23:061][873]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-17.04.22:990][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF9C10DE40
+[2016.11.30-17.04.22:996][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFAC9E3CE0
+[2016.11.30-17.04.22:996][899]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.031
+[2016.11.30-17.04.23:002][899]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/Inventory] ([1] browsable assets)...
+[2016.11.30-17.04.23:002][899]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/Inventory]
+[2016.11.30-17.04.23:073][899]LogSavePackage: Save=66.063522ms
+[2016.11.30-17.04.23:073][899]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory_Auto2B35FCEB94C751220407940AD268A4324.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Inventory_Auto2.uasset'
+[2016.11.30-17.04.23:074][899]LogSavePackage: Total save time: 71.073353ms
+[2016.11.30-17.04.23:074][899]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Inventory_Auto2.uasset
+[2016.11.30-17.04.23:074][899]LogFileHelpers: Auto-saving content packages took 0.078
+[2016.11.30-17.08.39:436][962]BlueprintLog: New page: Compile Inventory
+[2016.11.30-17.08.39:535][962]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFC5069440
+[2016.11.30-17.08.39:535][962]BlueprintEditorCompileResults: Info [2105.17] Compile of Inventory successful! [in 98 ms]
+[2016.11.30-17.08.40:207][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Inventory" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset" SILENT=true
+[2016.11.30-17.08.40:274][ 37]LogSavePackage: Save=62.818192ms
+[2016.11.30-17.08.40:274][ 37]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory87FB34074F8E626F963D4DA6E907C75A.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset'
+[2016.11.30-17.08.40:277][ 37]LogSavePackage: Total save time: 68.373140ms
+[2016.11.30-17.08.40:277][ 37]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset
+[2016.11.30-17.10.09:481][103]LogEditorTransaction: Undo Delete current selection
+[2016.11.30-17.14.34:186][854]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.033
+[2016.11.30-17.14.34:192][854]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/Inventory] ([1] browsable assets)...
+[2016.11.30-17.14.34:193][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/Inventory]
+[2016.11.30-17.14.34:280][854]LogSavePackage: Save=82.609192ms
+[2016.11.30-17.14.34:280][854]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory_Auto394B5F6CF454B99D15E193E91BB2913B5.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Inventory_Auto3.uasset'
+[2016.11.30-17.14.34:282][854]LogSavePackage: Total save time: 87.787237ms
+[2016.11.30-17.14.34:282][854]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Inventory_Auto3.uasset
+[2016.11.30-17.14.34:286][854]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/IInventory] ([1] browsable assets)...
+[2016.11.30-17.14.34:286][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/IInventory]
+[2016.11.30-17.14.34:297][854]LogSavePackage: Save=6.078969ms
+[2016.11.30-17.14.34:297][854]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/IInventory_Auto301035E8543395F21308EF393EC131DB5.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/IInventory_Auto3.uasset'
+[2016.11.30-17.14.34:298][854]LogSavePackage: Total save time: 10.866135ms
+[2016.11.30-17.14.34:298][854]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/IInventory_Auto3.uasset
+[2016.11.30-17.14.34:298][854]LogFileHelpers: Auto-saving content packages took 0.111
+[2016.11.30-17.15.49:024][375]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.11.30-17.25.46:845][136]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.034
+[2016.11.30-17.25.46:851][136]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/Inventory] ([1] browsable assets)...
+[2016.11.30-17.25.46:851][136]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/Inventory]
+[2016.11.30-17.25.46:953][136]LogSavePackage: Save=96.756584ms
+[2016.11.30-17.25.46:953][136]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory_Auto4831FC24644CF6BC941613781E271B3F2.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Inventory_Auto4.uasset'
+[2016.11.30-17.25.46:956][136]LogSavePackage: Total save time: 103.028283ms
+[2016.11.30-17.25.46:956][136]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Inventory_Auto4.uasset
+[2016.11.30-17.25.46:956][136]LogFileHelpers: Auto-saving content packages took 0.110
+[2016.11.30-17.31.42:711][207]BlueprintLog: New page: Compile Inventory
+[2016.11.30-17.31.42:738][207]LogBlueprint:Error: [compiler Inventory] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2016.11.30-17.31.42:864][207]LogBlueprint:Warning: [compiler Inventory] Warning [3488.50] Compile of Inventory failed. 1 Fatal Issue(s) 0 Warning(s) [in 153 ms]
+[2016.11.30-17.31.42:864][207]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2016.11.30-17.31.42:864][207]BlueprintEditorCompileResults:Warning: Warning [3488.50] Compile of Inventory failed. 1 Fatal Issue(s) 0 Warning(s) [in 153 ms]
+[2016.11.30-17.31.46:467][590]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.11.30-17.33.49:778][526]BlueprintLog: New page: Compile Inventory
+[2016.11.30-17.33.49:880][526]BlueprintEditorCompileResults: Info [3615.52] Compile of Inventory successful! [in 101 ms]
+[2016.11.30-17.33.51:012][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Inventory" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset" SILENT=true
+[2016.11.30-17.33.51:111][657]LogSavePackage: Save=93.286018ms
+[2016.11.30-17.33.51:111][657]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory22C9D01648F0829A197704999363AB95.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset'
+[2016.11.30-17.33.51:116][657]LogSavePackage: Total save time: 101.544604ms
+[2016.11.30-17.33.51:116][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset
+[2016.11.30-17.35.47:559][462]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.030
+[2016.11.30-17.35.47:565][462]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Inventory/Inventory] ([1] browsable assets)...
+[2016.11.30-17.35.47:565][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inventory/Inventory]
+[2016.11.30-17.35.47:664][462]LogSavePackage: Save=94.973259ms
+[2016.11.30-17.35.47:664][462]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory_Auto56E2C2DB14B3981D0DA2A1588B9A68624.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Inventory_Auto5.uasset'
+[2016.11.30-17.35.47:665][462]LogSavePackage: Total save time: 99.199060ms
+[2016.11.30-17.35.47:665][462]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/Inventory/Inventory_Auto5.uasset
+[2016.11.30-17.35.47:665][462]LogFileHelpers: Auto-saving content packages took 0.106
+[2016.11.30-17.41.25:840][482]BlueprintLog: New page: Compile Inventory
+[2016.11.30-17.41.25:952][482]BlueprintEditorCompileResults: Info [4071.59] Compile of Inventory successful! [in 112 ms]
+[2016.11.30-17.41.26:938][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Inventory" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset" SILENT=true
+[2016.11.30-17.41.27:037][596]LogSavePackage: Save=92.867493ms
+[2016.11.30-17.41.27:037][596]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory2221EBBF44F538D807DD4D826AAE6312.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset'
+[2016.11.30-17.41.27:042][596]LogSavePackage: Total save time: 101.611316ms
+[2016.11.30-17.41.27:042][596]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset
+[2016.11.30-18.21.36:070][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/Inventory" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset" SILENT=true
+[2016.11.30-18.21.36:167][226]LogSavePackage: Save=90.964996ms
+[2016.11.30-18.21.36:167][226]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Inventory987CB1D549A5D3D6CD73D78445679392.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset'
+[2016.11.30-18.21.36:168][226]LogSavePackage: Total save time: 96.825864ms
+[2016.11.30-18.21.36:168][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/Inventory.uasset
+[2016.11.30-18.21.43:633][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Inventory/IInventory" FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/IInventory.uasset" SILENT=true
+[2016.11.30-18.21.43:644][561]LogSavePackage: Save=6.748960ms
+[2016.11.30-18.21.43:644][561]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/IInventoryD1DE7284476F1E3589276A887F96B50C.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/IInventory.uasset'
+[2016.11.30-18.21.43:648][561]LogSavePackage: Total save time: 13.396997ms
+[2016.11.30-18.21.43:648][561]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/Inventory/IInventory.uasset
+[2016.11.30-18.21.43:742][561]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.30-18.21.43:925][562]Cmd: QUIT_EDITOR
+[2016.11.30-18.21.44:038][562]LogExit: Preparing to exit.
+[2016.11.30-18.21.44:671][562]LogExit: Editor shut down
+[2016.11.30-18.21.44:672][562]LogExit: Transaction tracking system shut down
+[2016.11.30-18.21.44:677][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C029C0A7A0
+[2016.11.30-18.21.44:679][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFC80FC220
+[2016.11.30-18.21.44:681][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFD430F880
+[2016.11.30-18.21.44:682][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFF21C8360
+[2016.11.30-18.21.44:682][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFD64C1BC0
+[2016.11.30-18.21.44:682][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BFD64C3BA0
+[2016.11.30-18.21.44:848][562]LogExit: Object subsystem successfully closed.
+[2016.11.30-18.21.44:868][562]LogD3D11RHI: Shutdown
+[2016.11.30-18.21.44:868][562]LogD3D11RHI: CleanupD3DDevice
+[2016.11.30-18.21.44:972][562]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.30-18.21.44:985][562]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.11.30-18.21.44:985][562]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.11.30-18.21.44:985][562]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.11.30-18.21.44:985][562]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.11.30-18.21.44:985][562]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.11.30-18.21.44:985][562]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.11.30-18.21.44:985][562]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.11.30-18.21.44:988][562]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.11.30-18.21.44:989][562]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.11.30-18.21.44:989][562]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.11.30-18.21.44:989][562]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.11.30-18.21.44:989][562]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.11.30-18.21.44:989][562]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.11.30-18.21.44:989][562]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.11.30-18.21.45:666][562]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.11.30-18.21.45:667][562]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.11.30-18.21.45:667][562]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.11.30-18.21.45:667][562]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.11.30-18.21.45:667][562]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.11.30-18.21.45:667][562]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.11.30-18.21.45:667][562]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.11.30-18.21.45:667][562]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.11.30-18.21.45:667][562]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.11.30-18.21.45:667][562]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.11.30-18.21.45:667][562]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.11.30-18.21.45:667][562]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.11.30-18.21.45:668][562]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.11.30-18.21.45:861][562]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.11.30-18.21.45:861][562]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.11.30-18.21.45:861][562]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.11.30-18.21.45:861][562]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.11.30-18.21.45:861][562]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.11.30-18.21.45:861][562]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.11.30-18.21.45:861][562]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.11.30-18.21.45:861][562]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.11.30-18.21.45:875][562]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.11.30-18.21.45:876][562]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.11.30-18.21.45:878][562]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.11.30-18.21.45:917][562]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.11.30-18.21.45:918][562]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.11.30-18.21.45:918][562]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.11.30-18.21.46:019][562]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.11.30-18.21.46:019][562]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.11.30-18.21.46:019][562]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.11.30-18.21.46:022][562]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.11.30-18.21.46:023][562]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.11.30-18.21.46:023][562]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.11.30-18.21.46:023][562]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.11.30-18.21.46:023][562]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.11.30-18.21.46:025][562]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.11.30-18.21.46:025][562]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.11.30-18.21.46:025][562]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.11.30-18.21.46:025][562]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.11.30-18.21.46:025][562]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.11.30-18.21.46:025][562]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.11.30-18.21.46:025][562]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.11.30-18.21.46:025][562]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.11.30-18.21.46:025][562]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.11.30-18.21.46:025][562]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.11.30-18.21.46:082][562]LogDerivedDataCache: Shutdown
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.11.30-18.21.46:082][562]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.11.30-18.21.48:586][562]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.11.30-18.21.48:586][562]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.11.30-18.21.48:586][562]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.11.30-18.21.48:586][562]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.30-18.21.48:586][562]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.30-18.21.48:586][562]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.30-18.21.48:586][562]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.30-18.21.48:589][562]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.30-18.21.48:589][562]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.30-18.21.48:589][562]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.30-18.21.48:589][562]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.30-18.21.48:589][562]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.30-18.21.48:589][562]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.30-18.21.48:589][562]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.30-18.21.48:589][562]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.30-18.21.48:589][562]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.30-18.21.48:589][562]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.30-18.21.48:591][562]LogExit: Exiting.
+[2016.11.30-18.21.48:592][562]Log file closed, 11/30/16 13:21:48

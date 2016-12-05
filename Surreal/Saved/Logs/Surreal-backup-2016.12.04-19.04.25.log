@@ -1,0 +1,1190 @@
+﻿[2016.12.04-21.17.13:981][  0]Log file open, 12/04/16 16:17:13
+[2016.12.04-21.17.13:981][  0]LogInit:Display: Running engine for game: Surreal
+[2016.12.04-21.17.13:981][  0]LogPlatformFile: Not using cached read wrapper
+[2016.12.04-21.17.13:981][  0]LogInit:Display: RandInit(1003135472) SRandInit(1003135473).
+[2016.12.04-21.17.13:981][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.12.04-21.17.13:981][  0]LogStats: Stats thread started at 0.098987
+[2016.12.04-21.17.13:981][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.12.04-21.17.13:981][  0]LogInit: API Version: 2758231
+[2016.12.04-21.17.13:981][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.12.04-21.17.13:981][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.12.04-21.17.13:981][  0]LogInit: Build Configuration: Development
+[2016.12.04-21.17.13:981][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.12.04-21.17.13:981][  0]LogInit: Command line: 
+[2016.12.04-21.17.13:981][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.12.04-21.17.13:981][  0]LogInit: Rocket: 1
+[2016.12.04-21.17.14:194][  0]LogInit: Using libcurl 7.41.0
+[2016.12.04-21.17.14:194][  0]LogInit:  - built for x86_64-pc-win32
+[2016.12.04-21.17.14:194][  0]LogInit:  - supports SSL with WinSSL
+[2016.12.04-21.17.14:194][  0]LogInit:  - other features:
+[2016.12.04-21.17.14:194][  0]LogInit:      CURL_VERSION_SSL
+[2016.12.04-21.17.14:194][  0]LogInit:      CURL_VERSION_IPV6
+[2016.12.04-21.17.14:194][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.12.04-21.17.14:194][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.12.04-21.17.14:194][  0]LogInit:      CURL_VERSION_IDN
+[2016.12.04-21.17.14:194][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.12.04-21.17.14:194][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.12.04-21.17.14:194][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.12.04-21.17.14:194][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.12.04-21.17.14:194][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.12.04-21.17.14:297][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.12.04-21.17.14:302][  0]LogInit: Object subsystem initialized
+[2016.12.04-21.17.14:303][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.04-21.17.14:303][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.04-21.17.14:310][  0]LogInit: Computer: MYSTERYMACHINE
+[2016.12.04-21.17.14:310][  0]LogInit: User: Matthew
+[2016.12.04-21.17.14:310][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.12.04-21.17.14:310][  0]LogInit: High frequency timer resolution =3.507505 MHz
+[2016.12.04-21.17.14:310][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.04-21.17.14:310][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.04-21.17.14:310][  0]LogMemory: Process Physical Memory: 54.95 MB used, 54.95 MB peak
+[2016.12.04-21.17.14:310][  0]LogMemory: Process Virtual Memory: 56.59 MB used, 56.59 MB peak
+[2016.12.04-21.17.14:310][  0]LogMemory: Physical Memory: 3511.93 MB used, 16325.88 MB total
+[2016.12.04-21.17.14:310][  0]LogMemory: Virtual Memory: 365.68 MB used, 134217728.00 MB total
+[2016.12.04-21.17.14:416][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2016.12.04-21.17.14:800][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.12.04-21.17.14:800][  0]LogD3D11RHI: Adapter has 3975MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
+[2016.12.04-21.17.14:802][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.12.04-21.17.14:802][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.12.04-21.17.14:802][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.12.04-21.17.14:806][  0]LogD3D11RHI: !Direct3DDevice
+[2016.12.04-21.17.14:806][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.04-21.17.14:818][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.04-21.17.14:834][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Intermediate/Shaders/WorkingDirectory/5840/).
+[2016.12.04-21.17.14:834][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matthew/AppData/Local/Temp/UnrealShaderWorkingDir/F7391B6F490DFAFB188FBDB5C6A24CAD/'.
+[2016.12.04-21.17.14:834][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.04-21.17.15:504][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.04-21.17.15:507][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.04-21.17.15:511][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.04-21.17.15:515][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.04-21.17.15:519][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.04-21.17.15:521][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.04-21.17.15:523][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.04-21.17.15:526][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.04-21.17.15:528][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.04-21.17.15:530][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.04-21.17.15:532][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.04-21.17.15:538][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.04-21.17.15:538][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.04-21.17.15:539][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.04-21.17.15:555][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.04-21.17.15:557][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.04-21.17.15:560][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.04-21.17.15:563][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.04-21.17.15:563][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.04-21.17.15:653][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.04-21.17.15:704][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.12.04-21.17.15:704][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.12.04-21.17.15:704][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.04-21.17.15:704][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.04-21.17.15:704][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.04-21.17.15:704][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.04-21.17.15:751][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.04-21.17.15:764][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matthew/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.04-21.17.15:926][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.04-21.17.15:927][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.12.04-21.17.16:019][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.04-21.17.16:019][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.04-21.17.16:220][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.04-21.17.16:845][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.04-21.17.16:941][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2016.12.04-21.17.17:093][  0]SourceControl: Info Source control is disabled
+[2016.12.04-21.17.17:094][  0]SourceControl: Info Source control is disabled
+[2016.12.04-21.17.17:106][  0]SourceControl: Info Source control is disabled
+[2016.12.04-21.17.17:116][  0]SourceControl: Info Source control is disabled
+[2016.12.04-21.17.17:380][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.12.04-21.17.17:380][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.12.04-21.17.17:448][  0]LogEngine: Initializing Engine...
+[2016.12.04-21.17.17:449][  0]OCULUS: Info: 12/04/16 21:17:17: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_8.dll
+
+[2016.12.04-21.17.17:468][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.12.04-21.17.17:616][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.12.04-21.17.17:625][  0]LogInit: XAudio2 using 'NS-24L240A13-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.04-21.17.17:638][  0]LogInit: FAudioDevice initialized.
+[2016.12.04-21.17.17:673][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Matthew/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.12.04-21.17.17:681][  0]LogInit: Texture streaming: Enabled
+[2016.12.04-21.17.17:687][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.12.04-21.17.17:687][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.12.04-21.17.17:687][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 30846442452bc96b6507b6becd57ee02|7d14a1fe045f4d43a4f78de1f548c9bc|31702dc6-e2b8-4b86-bdc9-c7ff476772df
+[2016.12.04-21.17.17:687][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.12.04-21.17.17:697][  0]LogInit: Transaction tracking system initialized
+[2016.12.04-21.17.17:724][  0]BlueprintLog: New page: Editor Load
+[2016.12.04-21.17.17:802][  0]LocalizationService: Info Localization service is disabled
+[2016.12.04-21.17.17:886][  0]LogConsoleResponse:Display: 
+[2016.12.04-21.17.18:004][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.12.04-21.17.18:060][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Content/' took 0.02s
+[2016.12.04-21.17.18:060][  0]SourceControl: Info Source control is disabled
+[2016.12.04-21.17.18:060][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.04-21.17.18:112][  0]LightingResults: New page: Lighting Build
+[2016.12.04-21.17.18:115][  0]MapCheck: New page: Map Check
+[2016.12.04-21.17.18:115][  0]LightingResults: New page: Lighting Build
+[2016.12.04-21.17.18:127][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EEE100E160
+[2016.12.04-21.17.18:278][  0]LogLinker:Warning: Asset '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.04-21.17.18:928][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Inventory/Item_Misc_Apple_WA.Item_Misc_Apple_WA_C:UserConstructionScript; removing parent information, but keeping function
+[2016.12.04-21.17.22:826][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.12.04-21.17.23:146][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.04-21.17.23:146][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.04-21.17.23:219][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.525ms to complete.
+[2016.12.04-21.17.23:219][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.159
+[2016.12.04-21.17.23:345][  0]LogCollectionManager: Loaded 0 collections in 0.001033 seconds
+[2016.12.04-21.17.23:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Collections/' took 0.01s
+[2016.12.04-21.17.23:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Content/Developers/Matthew/Collections/' took 0.01s
+[2016.12.04-21.17.23:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matthew/Documents/Unreal Projects/Surreal/Content/Collections/' took 0.01s
+[2016.12.04-21.17.23:386][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.12.04-21.17.23:392][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1893 classes and 338 folders.
+[2016.12.04-21.17.23:399][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.12.04-21.17.24:310][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.12.04-21.17.24:313][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.12.04-21.17.24:335][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.04-21.17.24:339][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.04-21.17.24:361][  0]LogLoad: Full Startup: 11.13 seconds (BP compile: 0.26 seconds)
+[2016.12.04-21.17.24:701][  0]LogOcInput: OculusInput is initialized. Init status -3003. Runtime version: (Unable to load LibOVR)
+[2016.12.04-21.17.24:763][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.04-21.17.24:822][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 (Frame:1).
+[2016.12.04-21.17.25:256][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.12.04-21.17.26:974][  6]LogAssetRegistry: Asset discovery search completed in 10.0443 seconds
+[2016.12.04-21.17.26:974][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.04-21.17.26:974][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2016.12.04-21.17.35:996][ 36]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 460/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.17.36:346][ 39]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.17.48:692][ 85]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.17.51:288][108]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.12.04-21.17.51:605][108]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.12.04-21.17.51:926][108]PIE:Error: Error SpawnObject wrong class: None'
+[2016.12.04-21.17.51:926][108]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2016.12.04-21.17.51:926][108]LogScript:Warning: Accessed None 'CallFunc_SpawnObject_ReturnValue'
+	ItemWorldActor_C /Engine/Transient.World_4:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/Inventory/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2016.12.04-21.17.52:381][113]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.18.33:636][402]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.18.36:267][442]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.18.48:673][565]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.19.38:775][ 69]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.19.43:762][123]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.24.45:519][257]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.04-21.27.42:690][529]BlueprintLog: New page: Compile FirstPersonHUD
+[2016.12.04-21.27.42:769][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.12.04-21.27.42:769][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.27.42:811][529]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EEEB14D620
+[2016.12.04-21.27.42:830][529]BlueprintEditorCompileResults: Info [0629.60] Compile of FirstPersonHUD successful! [in 139 ms]
+[2016.12.04-21.30.54:598][982]BlueprintLog: New page: Compile FirstPersonHUD
+[2016.12.04-21.30.54:607][982]LogBlueprint:Error: [compiler FirstPersonHUD] Error This blueprint (self) is not a UI_OnItemSelected_C, therefore ' Target ' must have a connection.
+[2016.12.04-21.30.54:785][982]LogBlueprint:Warning: [compiler FirstPersonHUD] Warning [0821.55] Compile of FirstPersonHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 185 ms]
+[2016.12.04-21.30.54:785][982]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UI_OnItemSelected_C, therefore ' Target ' must have a connection.
+[2016.12.04-21.30.54:785][982]BlueprintEditorCompileResults:Warning: Warning [0821.55] Compile of FirstPersonHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 185 ms]
+[2016.12.04-21.31.19:361][763]BlueprintLog: New page: Compile FirstPersonHUD
+[2016.12.04-21.31.19:371][763]LogBlueprint:Error: [compiler FirstPersonHUD] Error This blueprint (self) is not a UI_OnItemSelected_C, therefore ' Target ' must have a connection.
+[2016.12.04-21.31.19:484][763]LogBlueprint:Warning: [compiler FirstPersonHUD] Warning [0846.25] Compile of FirstPersonHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 123 ms]
+[2016.12.04-21.31.19:484][763]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UI_OnItemSelected_C, therefore ' Target ' must have a connection.
+[2016.12.04-21.31.19:484][763]BlueprintEditorCompileResults:Warning: Warning [0846.25] Compile of FirstPersonHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 123 ms]
+[2016.12.04-21.32.54:764][634]BlueprintLog: New page: Compile FirstPersonHUD
+[2016.12.04-21.32.54:851][634]BlueprintEditorCompileResults: Info [0941.62] Compile of FirstPersonHUD successful! [in 86 ms]
+[2016.12.04-21.32.56:919][656]LogSavePackage: Save=26.159336ms
+[2016.12.04-21.32.56:919][656]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonHUD5706648E4E92CD5EC5FF018C990072D8.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2016.12.04-21.32.56:923][656]LogSavePackage: Total save time: 36.395099ms
+[2016.12.04-21.32.56:923][656]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2016.12.04-21.33.53:064][868]LogSavePackage: Save=24.228903ms
+[2016.12.04-21.33.53:064][868]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonHUDBDED0926470A9E860FA492A3FF9B8E87.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2016.12.04-21.33.53:066][868]LogSavePackage: Total save time: 27.944367ms
+[2016.12.04-21.33.53:066][868]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2016.12.04-21.34.21:225][126]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.34.30:853][164]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.34.31:365][169]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.35.24:358][229]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.35.42:467][556]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.35.44:716][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.12.04-21.35.44:716][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.35.47:870][578]LogSavePackage: Save=2157.394531ms
+[2016.12.04-21.35.47:870][578]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMapCE1B560346234C174CFE6F92D3621203.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.12.04-21.35.47:881][578]LogSavePackage: Total save time: 3140.463948ms
+[2016.12.04-21.35.47:881][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.12.04-21.35.48:588][585]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.35.50:919][719]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.12.04-21.35.50:919][719]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.35.50:942][719]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EEB1059B20
+[2016.12.04-21.35.51:466][725]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.36.14:324][804]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.36.45:591][286]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.12.04-21.36.45:591][286]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.36.45:770][288]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.36.51:160][697]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.12.04-21.36.51:160][697]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.36.51:262][699]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.37.45:552][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.12.04-21.37.45:552][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_0) Not registered. Aborting.
+[2016.12.04-21.37.45:552][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.37.45:647][921]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.37.50:571][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.12.04-21.37.50:571][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_1) Not registered. Aborting.
+[2016.12.04-21.37.50:571][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_0) Not registered. Aborting.
+[2016.12.04-21.37.50:745][975]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.37.56:422][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.12.04-21.37.56:422][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_2) Not registered. Aborting.
+[2016.12.04-21.37.56:422][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_1) Not registered. Aborting.
+[2016.12.04-21.37.56:606][335]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.37.59:172][362]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.12.04-21.37.59:172][362]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_3) Not registered. Aborting.
+[2016.12.04-21.37.59:172][362]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_2) Not registered. Aborting.
+[2016.12.04-21.37.59:324][364]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.38.15:811][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.12.04-21.38.15:811][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_4) Not registered. Aborting.
+[2016.12.04-21.38.15:811][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_3) Not registered. Aborting.
+[2016.12.04-21.38.15:986][541]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.38.18:828][696]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.12.04-21.38.18:828][696]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_5) Not registered. Aborting.
+[2016.12.04-21.38.18:828][696]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_4) Not registered. Aborting.
+[2016.12.04-21.38.19:002][698]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.38.21:535][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.12.04-21.38.21:535][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_6) Not registered. Aborting.
+[2016.12.04-21.38.21:535][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_5) Not registered. Aborting.
+[2016.12.04-21.38.21:680][727]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.38.50:424][  4]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.12.04-21.38.50:424][  4]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_7) Not registered. Aborting.
+[2016.12.04-21.38.50:424][  4]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_6) Not registered. Aborting.
+[2016.12.04-21.38.50:598][  6]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.38.54:666][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.12.04-21.38.54:666][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_8) Not registered. Aborting.
+[2016.12.04-21.38.54:666][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_7) Not registered. Aborting.
+[2016.12.04-21.38.54:815][147]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.39.03:137][234]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.39.03:156][234]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1.CollisionCylinder and CapsuleComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.39.03:156][234]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1.Arrow and ArrowComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.39.03:156][234]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1.CharMoveComp and CharacterMovementComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.39.03:156][234]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.39.03:218][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.12.04-21.39.03:218][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_9) Not registered. Aborting.
+[2016.12.04-21.39.03:218][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_8) Not registered. Aborting.
+[2016.12.04-21.39.03:259][234]BlueprintEditorCompileResults: Info [1310.03] Compile of FirstPersonCharacter successful! [in 122 ms]
+[2016.12.04-21.39.03:339][236]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.39.06:685][271]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.39.06:685][271]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.39.06:685][271]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.39.06:865][273]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.39.08:873][292]LogSavePackage: Save=68.677307ms
+[2016.12.04-21.39.08:873][292]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacterFC268B1E41BD4FA62AC7ADB593A95F51.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-21.39.08:877][292]LogSavePackage: Total save time: 75.718779ms
+[2016.12.04-21.39.08:877][292]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-21.39.08:954][294]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.39.09:469][299]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.39.09:535][299]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.12.04-21.39.09:535][299]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_10) Not registered. Aborting.
+[2016.12.04-21.39.09:535][299]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_9) Not registered. Aborting.
+[2016.12.04-21.39.09:575][299]BlueprintEditorCompileResults: Info [1316.34] Compile of FirstPersonCharacter successful! [in 105 ms]
+[2016.12.04-21.39.09:655][301]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.39.28:899][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.39.28:899][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.39.28:899][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.39.29:044][386]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.39.36:088][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.12.04-21.39.36:088][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_11) Not registered. Aborting.
+[2016.12.04-21.39.36:088][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_10) Not registered. Aborting.
+[2016.12.04-21.39.36:259][463]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.39.39:012][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.12.04-21.39.39:012][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_12) Not registered. Aborting.
+[2016.12.04-21.39.39:012][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_11) Not registered. Aborting.
+[2016.12.04-21.39.39:193][580]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.39.40:735][596]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.39.40:754][596]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder and CapsuleComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.39.40:754][596]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Arrow and ArrowComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_2.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.39.40:755][596]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp and CharacterMovementComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_2.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.39.40:755][596]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0 and SkeletalMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_2.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.39.40:816][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.12.04-21.39.40:817][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_13) Not registered. Aborting.
+[2016.12.04-21.39.40:817][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_12) Not registered. Aborting.
+[2016.12.04-21.39.40:857][596]BlueprintEditorCompileResults: Info [1347.63] Compile of FirstPersonCharacter successful! [in 122 ms]
+[2016.12.04-21.39.40:937][598]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.39.41:751][605]LogSavePackage: Save=66.067474ms
+[2016.12.04-21.39.41:751][605]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter365D14EE412094598135EDA502346DC5.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-21.39.41:754][605]LogSavePackage: Total save time: 71.609594ms
+[2016.12.04-21.39.41:754][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-21.39.41:843][608]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.39.56:651][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.39.56:652][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.39.56:652][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.39.56:797][675]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.39.59:866][708]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.12.04-21.39.59:867][708]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_14) Not registered. Aborting.
+[2016.12.04-21.39.59:867][708]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_13) Not registered. Aborting.
+[2016.12.04-21.40.00:044][710]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.40.07:732][756]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.12.04-21.40.07:732][756]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_15) Not registered. Aborting.
+[2016.12.04-21.40.07:732][756]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_14) Not registered. Aborting.
+[2016.12.04-21.40.07:826][758]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.40.12:376][806]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.12.04-21.40.12:377][806]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_16) Not registered. Aborting.
+[2016.12.04-21.40.12:377][806]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_15) Not registered. Aborting.
+[2016.12.04-21.40.12:551][808]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.40.15:460][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.12.04-21.40.15:461][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_17) Not registered. Aborting.
+[2016.12.04-21.40.15:461][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_16) Not registered. Aborting.
+[2016.12.04-21.40.15:613][981]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.40.29:829][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.12.04-21.40.29:829][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_18) Not registered. Aborting.
+[2016.12.04-21.40.29:829][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_17) Not registered. Aborting.
+[2016.12.04-21.40.29:921][ 53]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.40.37:755][507]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2016.12.04-21.40.37:756][507]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_19) Not registered. Aborting.
+[2016.12.04-21.40.37:756][507]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_18) Not registered. Aborting.
+[2016.12.04-21.40.37:858][509]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.40.39:410][525]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2016.12.04-21.40.39:410][525]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_20) Not registered. Aborting.
+[2016.12.04-21.40.39:410][525]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_19) Not registered. Aborting.
+[2016.12.04-21.40.39:557][527]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.40.55:610][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2016.12.04-21.40.55:610][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_21) Not registered. Aborting.
+[2016.12.04-21.40.55:610][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_20) Not registered. Aborting.
+[2016.12.04-21.40.55:789][709]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.40.57:960][732]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.40.57:979][732]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_2.CollisionCylinder and CapsuleComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_3.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.40.57:979][732]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_2.Arrow and ArrowComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_3.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.40.57:979][732]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_2.CharMoveComp and CharacterMovementComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_3.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.40.57:979][732]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_2.CharacterMesh0 and SkeletalMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_3.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.40.58:047][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2016.12.04-21.40.58:048][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_22) Not registered. Aborting.
+[2016.12.04-21.40.58:048][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_21) Not registered. Aborting.
+[2016.12.04-21.40.58:090][732]BlueprintEditorCompileResults: Info [1424.86] Compile of FirstPersonCharacter successful! [in 130 ms]
+[2016.12.04-21.40.58:171][734]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.41.34:221][868]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.41.34:221][868]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.41.34:221][868]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.41.34:362][870]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.41.37:621][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2016.12.04-21.41.37:621][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_23) Not registered. Aborting.
+[2016.12.04-21.41.37:621][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_22) Not registered. Aborting.
+[2016.12.04-21.41.37:795][907]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.41.41:166][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2016.12.04-21.41.41:166][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_24) Not registered. Aborting.
+[2016.12.04-21.41.41:166][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_23) Not registered. Aborting.
+[2016.12.04-21.41.41:382][122]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.41.43:595][145]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.41.43:614][145]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_3.CollisionCylinder and CapsuleComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_4.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.41.43:614][145]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_3.Arrow and ArrowComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_4.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.41.43:614][145]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_3.CharMoveComp and CharacterMovementComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_4.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.41.43:614][145]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_3.CharacterMesh0 and SkeletalMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_4.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.04-21.41.43:685][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2016.12.04-21.41.43:685][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_25) Not registered. Aborting.
+[2016.12.04-21.41.43:685][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_24) Not registered. Aborting.
+[2016.12.04-21.41.43:726][145]BlueprintEditorCompileResults: Info [1470.49] Compile of FirstPersonCharacter successful! [in 131 ms]
+[2016.12.04-21.41.43:805][147]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.41.44:344][152]LogSavePackage: Save=70.773956ms
+[2016.12.04-21.41.44:344][152]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter0F1953594147A284DF428C8B9CF43246.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-21.41.44:351][152]LogSavePackage: Total save time: 79.640087ms
+[2016.12.04-21.41.44:351][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-21.41.44:432][154]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.42.35:041][338]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.42.35:042][338]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.42.35:042][338]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.42.35:142][340]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.42.40:586][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2016.12.04-21.42.40:586][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_26) Not registered. Aborting.
+[2016.12.04-21.42.40:586][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_25) Not registered. Aborting.
+[2016.12.04-21.42.40:761][400]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.43.02:145][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2016.12.04-21.43.02:145][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_27) Not registered. Aborting.
+[2016.12.04-21.43.02:145][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_26) Not registered. Aborting.
+[2016.12.04-21.43.02:293][541]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.43.08:394][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2016.12.04-21.43.08:394][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_28) Not registered. Aborting.
+[2016.12.04-21.43.08:394][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_27) Not registered. Aborting.
+[2016.12.04-21.43.08:572][608]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.43.20:786][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2016.12.04-21.43.20:787][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_29) Not registered. Aborting.
+[2016.12.04-21.43.20:787][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_28) Not registered. Aborting.
+[2016.12.04-21.43.20:923][185]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.43.48:628][388]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2016.12.04-21.43.48:628][388]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_30) Not registered. Aborting.
+[2016.12.04-21.43.48:628][388]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_29) Not registered. Aborting.
+[2016.12.04-21.43.48:726][390]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.43.54:519][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2016.12.04-21.43.54:520][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_31) Not registered. Aborting.
+[2016.12.04-21.43.54:520][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_30) Not registered. Aborting.
+[2016.12.04-21.43.54:630][871]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.44.10:545][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2016.12.04-21.44.10:545][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_32) Not registered. Aborting.
+[2016.12.04-21.44.10:545][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_31) Not registered. Aborting.
+[2016.12.04-21.44.10:690][ 46]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.44.15:253][414]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2016.12.04-21.44.15:254][414]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_33) Not registered. Aborting.
+[2016.12.04-21.44.15:254][414]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_32) Not registered. Aborting.
+[2016.12.04-21.44.15:362][416]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.44.25:045][622]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.44.25:132][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2016.12.04-21.44.25:132][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_34) Not registered. Aborting.
+[2016.12.04-21.44.25:132][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_33) Not registered. Aborting.
+[2016.12.04-21.44.25:177][622]BlueprintEditorCompileResults: Info [1631.95] Compile of FirstPersonCharacter successful! [in 132 ms]
+[2016.12.04-21.44.25:257][624]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.44.26:072][632]LogSavePackage: Save=72.482010ms
+[2016.12.04-21.44.26:072][632]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter182F081A444A7CE738807E832250CF2B.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-21.44.26:075][632]LogSavePackage: Total save time: 79.760402ms
+[2016.12.04-21.44.26:075][632]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-21.44.26:156][634]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.45.45:654][901]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.45.45:655][901]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.45.45:655][901]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.45.47:644][901]LogSavePackage: Save=1889.691650ms
+[2016.12.04-21.45.47:644][901]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap_Auto15AAC0E434E942572335F23A3626DA445.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2016.12.04-21.45.47:647][901]LogSavePackage: Total save time: 1946.244694ms
+[2016.12.04-21.45.47:647][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2016.12.04-21.45.47:649][901]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.995
+[2016.12.04-21.45.47:649][901]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.995
+[2016.12.04-21.46.56:939][570]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.47.08:467][149]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.47.20:752][326]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.47.29:032][185]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.47.40:255][251]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.47.44:870][668]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.47.58:728][260]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.48.11:495][733]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.48.29:467][432]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.48.48:029][857]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.49.22:323][224]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.49.26:045][339]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.49.27:808][406]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.49.39:611][493]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.49.44:946][959]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.49.48:127][106]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.49.50:008][201]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.49.51:551][295]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.49.55:369][592]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.49.57:087][675]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.50.00:251][800]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.50.24:526][602]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.50.31:125][ 30]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.50.49:652][213]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.51.05:172][923]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.51.25:182][493]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.51.27:786][598]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.51.29:664][618]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.51.29:753][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.51.29:754][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.51.29:754][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.51.29:795][618]BlueprintEditorCompileResults: Info [2056.56] Compile of FirstPersonCharacter successful! [in 129 ms]
+[2016.12.04-21.51.29:873][620]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.51.30:437][625]LogSavePackage: Save=83.709358ms
+[2016.12.04-21.51.30:437][625]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter1C1D9EDE440719F12852DC8AEE7E2B9D.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-21.51.30:441][625]LogSavePackage: Total save time: 90.951260ms
+[2016.12.04-21.51.30:441][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-21.51.30:519][627]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.52.13:636][484]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.52.23:045][680]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.52.37:864][ 99]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.52.52:976][454]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.52.55:473][548]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.53.22:731][733]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.53.25:332][849]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.53.28:042][880]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.53.34:708][209]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.53.34:798][209]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.53.34:798][209]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.53.34:798][209]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.53.34:839][209]BlueprintEditorCompileResults: Info [2181.61] Compile of FirstPersonCharacter successful! [in 130 ms]
+[2016.12.04-21.53.34:926][211]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.53.35:484][216]LogSavePackage: Save=92.735435ms
+[2016.12.04-21.53.35:484][216]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter5410008D447774C38CC923A228963C9E.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-21.53.35:491][216]LogSavePackage: Total save time: 101.410262ms
+[2016.12.04-21.53.35:491][216]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-21.53.35:572][218]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.53.52:251][423]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.53.59:297][922]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.53.59:385][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.53.59:385][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.53.59:385][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.53.59:425][922]BlueprintEditorCompileResults: Info [2206.19] Compile of FirstPersonCharacter successful! [in 128 ms]
+[2016.12.04-21.53.59:503][924]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.54.00:344][931]LogSavePackage: Save=92.426384ms
+[2016.12.04-21.54.00:344][931]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacterA457DC3F45048368B1FFE98101521E68.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-21.54.00:348][931]LogSavePackage: Total save time: 98.168641ms
+[2016.12.04-21.54.00:348][931]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-21.54.00:439][934]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.54.15:416][  8]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.04-21.54.19:077][372]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.54.34:844][457]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.54.34:931][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.54.34:931][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.54.34:931][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.54.34:972][457]BlueprintEditorCompileResults: Info [2241.74] Compile of FirstPersonCharacter successful! [in 128 ms]
+[2016.12.04-21.54.35:057][459]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.54.35:802][466]LogSavePackage: Save=90.642494ms
+[2016.12.04-21.54.35:802][466]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter3063B8D34AFBA3FD513CEA995A8F6BB6.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-21.54.35:806][466]LogSavePackage: Total save time: 96.790738ms
+[2016.12.04-21.54.35:806][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-21.54.35:884][468]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.55.48:758][718]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.55.48:759][718]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.55.48:759][718]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.55.50:705][718]LogSavePackage: Save=1812.715332ms
+[2016.12.04-21.55.50:705][718]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap_Auto2E2D72766482B54DC9137278EE931CC20.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2016.12.04-21.55.50:759][718]LogSavePackage: Total save time: 1937.117696ms
+[2016.12.04-21.55.50:759][718]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2016.12.04-21.55.50:761][718]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.003
+[2016.12.04-21.55.50:761][718]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.003
+[2016.12.04-21.57.03:444][642]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.57.08:211][889]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.57.10:541][915]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.57.13:210][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.57.13:210][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.57.13:210][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.57.13:333][ 65]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.57.39:773][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2016.12.04-21.57.39:773][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_35) Not registered. Aborting.
+[2016.12.04-21.57.39:773][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_34) Not registered. Aborting.
+[2016.12.04-21.57.39:955][763]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.57.41:417][778]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2016.12.04-21.57.41:417][778]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_36) Not registered. Aborting.
+[2016.12.04-21.57.41:417][778]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_35) Not registered. Aborting.
+[2016.12.04-21.57.41:509][780]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.58.01:046][270]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.58.01:136][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2016.12.04-21.58.01:137][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_37) Not registered. Aborting.
+[2016.12.04-21.58.01:137][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_36) Not registered. Aborting.
+[2016.12.04-21.58.01:183][270]BlueprintEditorCompileResults: Info [2447.95] Compile of FirstPersonCharacter successful! [in 136 ms]
+[2016.12.04-21.58.01:276][272]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.58.01:448][273]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-21.58.01:546][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-21.58.01:546][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.58.01:546][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-21.58.01:590][273]BlueprintEditorCompileResults: Info [2448.36] Compile of FirstPersonCharacter successful! [in 142 ms]
+[2016.12.04-21.58.01:667][275]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-21.58.02:336][281]LogSavePackage: Save=96.873131ms
+[2016.12.04-21.58.02:336][281]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter7B6B13E34FDFCEF18DF7CC854E15FD4D.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-21.58.02:340][281]LogSavePackage: Total save time: 103.787735ms
+[2016.12.04-21.58.02:340][281]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-21.58.02:430][284]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.00.06:346][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.00.06:346][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.00.06:346][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.00.06:681][620]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.00.13:527][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2016.12.04-22.00.13:527][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_38) Not registered. Aborting.
+[2016.12.04-22.00.13:527][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_37) Not registered. Aborting.
+[2016.12.04-22.00.13:703][791]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.00.23:295][138]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.00.43:620][899]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.00.45:610][ 15]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.00.58:853][582]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.01.02:383][676]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.01.05:795][925]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.01.08:090][993]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.01.13:532][377]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.01.14:889][441]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.01.15:910][485]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.01.17:149][552]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.01.31:080][140]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.01.34:277][241]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.01.50:309][745]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.02.02:771][864]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.02.08:633][120]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.02.14:367][434]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.02.30:405][958]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.02.38:580][483]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.02.56:365][ 48]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.03.35:218][265]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.03.42:569][559]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.03.50:514][822]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.04.11:713][714]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.04.17:569][109]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.04.33:811][707]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.04.39:032][808]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.04.51:449][248]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.04.56:974][489]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.04.58:991][592]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.05.09:542][798]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.05.20:114][104]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.05.54:153][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2016.12.04-22.05.54:153][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_39) Not registered. Aborting.
+[2016.12.04-22.05.54:153][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_38) Not registered. Aborting.
+[2016.12.04-22.05.56:071][288]LogSavePackage: Save=1811.766479ms
+[2016.12.04-22.05.56:071][288]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap_Auto3C7DC93E24A04C846168E4682749EEC3F.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2016.12.04-22.05.56:081][288]LogSavePackage: Total save time: 1877.876438ms
+[2016.12.04-22.05.56:081][288]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
+[2016.12.04-22.05.56:082][288]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.930
+[2016.12.04-22.05.56:083][288]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.930
+[2016.12.04-22.05.56:090][288]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2016.12.04-22.05.56:120][288]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2016.12.04-22.05.56:120][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2016.12.04-22.05.56:248][288]LogSavePackage: Save=123.567894ms
+[2016.12.04-22.05.56:248][288]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter_Auto38BBA91E5421196A33C9303B858EBB0ED.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset'
+[2016.12.04-22.05.56:264][288]LogSavePackage: Total save time: 141.920254ms
+[2016.12.04-22.05.56:264][288]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset
+[2016.12.04-22.05.56:264][288]LogFileHelpers: Auto-saving content packages took 0.179
+[2016.12.04-22.05.56:962][292]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.06.07:661][517]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.06.09:112][532]LogEditorTransaction: Undo Delete current selection
+[2016.12.04-22.06.09:126][532]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.06.09:126][532]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.06.09:126][532]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.06.09:283][533]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.06.10:611][613]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5570.EdGraphPin_45869''
+[2016.12.04-22.06.10:611][613]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5572.EdGraphPin_45876''
+[2016.12.04-22.06.10:612][613]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5571.EdGraphPin_45873''
+[2016.12.04-22.06.10:612][613]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_336.EdGraphPin_45880''
+[2016.12.04-22.06.10:612][613]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_336.EdGraphPin_45881''
+[2016.12.04-22.06.10:809][615]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.06.19:500][ 86]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.06.49:155][811]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.06.52:813][913]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.06.54:752][979]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.07.13:355][430]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.07.17:108][607]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.07.46:378][ 35]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.07.51:013][274]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.07.53:744][387]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.07.59:082][425]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.04-22.08.02:145][748]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.08.53:936][887]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.08.58:681][100]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.09.00:037][115]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.09.36:529][368]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.09.45:849][878]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.09.48:105][944]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.10.23:172][261]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.10.26:409][346]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.10.52:515][809]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.11.09:727][436]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.11.12:070][474]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.11.49:794][219]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.11.54:359][268]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.12.00:947][691]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.12.11:525][196]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.12.13:043][321]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.12.23:476][589]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.12.25:296][608]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.13.59:521][499]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.14.08:963][705]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-22.14.09:001][705]LogBlueprint:Error: [compiler FirstPersonCharacter] Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.12.04-22.14.09:001][705]LogBlueprint:Error: [compiler FirstPersonCharacter] Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.12.04-22.14.09:145][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2016.12.04-22.14.09:145][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_40) Not registered. Aborting.
+[2016.12.04-22.14.09:145][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_39) Not registered. Aborting.
+[2016.12.04-22.14.09:187][705]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [3415.96] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 223 ms]
+[2016.12.04-22.14.09:188][705]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.12.04-22.14.09:188][705]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.12.04-22.14.09:188][705]BlueprintEditorCompileResults:Warning: Warning [3415.96] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 223 ms]
+[2016.12.04-22.14.09:278][708]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.14.10:921][723]LogSavePackage: Save=135.788834ms
+[2016.12.04-22.14.10:921][723]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter6498D0F2440FC08B0CA776992B5E3E79.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-22.14.10:925][723]LogSavePackage: Total save time: 142.992526ms
+[2016.12.04-22.14.10:925][723]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-22.14.11:015][726]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.14.50:252][ 16]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-22.14.50:290][ 16]LogBlueprint:Error: [compiler FirstPersonCharacter] Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.12.04-22.14.50:290][ 16]LogBlueprint:Error: [compiler FirstPersonCharacter] Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.12.04-22.14.50:428][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.14.50:428][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.14.50:428][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.14.50:469][ 16]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [3457.24] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 215 ms]
+[2016.12.04-22.14.50:469][ 16]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.12.04-22.14.50:469][ 16]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.12.04-22.14.50:469][ 16]BlueprintEditorCompileResults:Warning: Warning [3457.24] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 215 ms]
+[2016.12.04-22.14.50:564][ 19]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.14.52:509][ 37]LogSavePackage: Save=154.458221ms
+[2016.12.04-22.14.52:509][ 37]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacterC6BFF4024AB085F414D8F19312D88615.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-22.14.52:511][ 37]LogSavePackage: Total save time: 158.679176ms
+[2016.12.04-22.14.52:511][ 37]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-22.14.52:603][ 40]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.16.03:419][860]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.16.09:703][152]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.16.19:775][216]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-22.16.19:809][216]LogBlueprint:Error: [compiler FirstPersonCharacter] Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.12.04-22.16.19:949][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.16.19:949][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.16.19:949][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.16.19:989][216]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [3546.76] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 214 ms]
+[2016.12.04-22.16.19:989][216]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2016.12.04-22.16.19:989][216]BlueprintEditorCompileResults:Warning: Warning [3546.76] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 214 ms]
+[2016.12.04-22.16.20:078][219]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.16.23:147][252]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.16.35:179][414]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.16.43:133][765]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.16.45:029][786]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.16.46:082][798]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-22.16.46:185][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.16.46:185][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.16.46:185][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.16.46:234][798]BlueprintEditorCompileResults: Info [3573.00] Compile of FirstPersonCharacter successful! [in 152 ms]
+[2016.12.04-22.16.46:313][800]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.16.47:020][806]LogSavePackage: Save=146.032578ms
+[2016.12.04-22.16.47:020][806]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacterA98FC8E64D9EAD081ABB978104D3A140.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-22.16.47:024][806]LogSavePackage: Total save time: 151.421595ms
+[2016.12.04-22.16.47:024][806]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-22.16.47:114][809]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.16.47:578][811]LogSavePackage: Save=131.790268ms
+[2016.12.04-22.16.47:578][811]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter25CA9B254EE56F7F20C79BACE1637019.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-22.16.47:580][811]LogSavePackage: Total save time: 136.016343ms
+[2016.12.04-22.16.47:580][811]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-22.17.09:124][912]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.17.09:124][912]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.17.09:124][912]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.17.11:002][912]LogSavePackage: Save=1777.842896ms
+[2016.12.04-22.17.11:002][912]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap_Auto4B28528DB4DA4F08B98D0F89B5E99093E.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2016.12.04-22.17.11:005][912]LogSavePackage: Total save time: 1834.097456ms
+[2016.12.04-22.17.11:005][912]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap
+[2016.12.04-22.17.11:006][912]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.883
+[2016.12.04-22.17.11:006][912]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.883
+[2016.12.04-22.17.23:889][398]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.17.27:981][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.17.27:981][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.17.27:981][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.17.28:152][443]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.17.46:025][840]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.18.03:036][292]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.18.11:059][729]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.18.22:142][ 26]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.18.31:092][ 88]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-22.18.31:198][ 88]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2016.12.04-22.18.31:199][ 88]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_41) Not registered. Aborting.
+[2016.12.04-22.18.31:199][ 88]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_40) Not registered. Aborting.
+[2016.12.04-22.18.31:242][ 88]BlueprintEditorCompileResults: Info [3678.01] Compile of FirstPersonCharacter successful! [in 150 ms]
+[2016.12.04-22.18.31:319][ 90]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.18.32:304][ 98]LogSavePackage: Save=138.853973ms
+[2016.12.04-22.18.32:304][ 98]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter2E2EA6014CCF80C8101FCAAC4AF23455.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-22.18.32:308][ 98]LogSavePackage: Total save time: 144.957170ms
+[2016.12.04-22.18.32:308][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-22.18.32:395][101]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.19.07:704][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.19.07:704][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.19.07:704][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.19.07:826][ 91]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.19.28:447][596]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.19.31:200][703]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.19.41:179][993]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.19.53:800][277]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.20.14:561][635]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.21.13:455][656]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.21.26:006][ 41]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.21.39:056][425]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.21.43:613][475]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.21.51:837][110]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.21.56:868][317]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.22.24:043][987]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.22.38:058][421]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.22.45:305][730]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.22.51:682][937]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.22.53:213][954]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.23.09:003][676]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-22.23.09:119][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2016.12.04-22.23.09:119][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_42) Not registered. Aborting.
+[2016.12.04-22.23.09:119][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_41) Not registered. Aborting.
+[2016.12.04-22.23.09:164][676]BlueprintEditorCompileResults: Info [3955.93] Compile of FirstPersonCharacter successful! [in 161 ms]
+[2016.12.04-22.23.09:255][679]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.23.10:052][685]LogSavePackage: Save=157.906540ms
+[2016.12.04-22.23.10:052][685]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter7E3F2DE049B92E2DA87C80B3BD21DDE9.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-22.23.10:057][685]LogSavePackage: Total save time: 165.406466ms
+[2016.12.04-22.23.10:057][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-22.23.10:148][688]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.23.23:074][960]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.23.27:397][221]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.24.07:854][614]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.24.14:583][665]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.24.27:502][862]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.24.39:580][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.24.39:580][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.24.39:580][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.24.39:794][372]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.24.48:642][653]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.25.12:782][319]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.25.21:203][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2016.12.04-22.25.21:203][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_43) Not registered. Aborting.
+[2016.12.04-22.25.21:203][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_42) Not registered. Aborting.
+[2016.12.04-22.25.21:379][485]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.25.27:718][ 20]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.25.30:331][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2016.12.04-22.25.30:331][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_44) Not registered. Aborting.
+[2016.12.04-22.25.30:331][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_43) Not registered. Aborting.
+[2016.12.04-22.25.30:502][ 50]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.25.32:413][ 71]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.25.36:950][401]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.25.45:701][991]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.25.54:249][250]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.26.34:460][887]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.26.39:996][945]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.26.48:418][562]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.26.56:185][780]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.27.01:065][935]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.27.05:653][195]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.27.07:621][321]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.27.15:322][746]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.27.45:669][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
+[2016.12.04-22.27.45:669][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_45) Not registered. Aborting.
+[2016.12.04-22.27.45:669][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_44) Not registered. Aborting.
+[2016.12.04-22.27.47:556][352]LogSavePackage: Save=1761.655396ms
+[2016.12.04-22.27.47:556][352]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap_Auto5A418A4B143FA244C816C12BA8DFF84BF.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2016.12.04-22.27.47:605][352]LogSavePackage: Total save time: 1883.601591ms
+[2016.12.04-22.27.47:605][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap
+[2016.12.04-22.27.47:607][352]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.938
+[2016.12.04-22.27.47:607][352]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.938
+[2016.12.04-22.27.47:615][352]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2016.12.04-22.27.47:629][352]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2016.12.04-22.27.47:629][352]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2016.12.04-22.27.47:806][352]LogSavePackage: Save=173.490555ms
+[2016.12.04-22.27.47:806][352]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter_Auto56DC63A4C4FE6C76C7BD7A29C456895BF.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset'
+[2016.12.04-22.27.47:818][352]LogSavePackage: Total save time: 186.963100ms
+[2016.12.04-22.27.47:818][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset
+[2016.12.04-22.27.47:818][352]LogFileHelpers: Auto-saving content packages took 0.209
+[2016.12.04-22.27.47:904][355]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.29.49:668][216]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.30.14:791][627]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.30.25:598][911]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.30.47:672][763]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.30.57:652][128]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.31.00:262][218]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.31.35:968][101]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-22.31.36:093][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.31.36:093][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.31.36:093][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.31.36:137][101]BlueprintEditorCompileResults: Info [4462.91] Compile of FirstPersonCharacter successful! [in 168 ms]
+[2016.12.04-22.31.36:227][104]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.31.37:259][113]LogSavePackage: Save=172.543167ms
+[2016.12.04-22.31.37:259][113]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacterEBE6864C4EA28BB2054BD8A18B3472B1.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-22.31.37:265][113]LogSavePackage: Total save time: 182.640936ms
+[2016.12.04-22.31.37:265][113]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-22.31.37:368][116]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.35.56:356][312]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-22.35.56:480][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.35.56:481][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.35.56:481][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.35.56:527][312]BlueprintEditorCompileResults: Info [4723.30] Compile of FirstPersonCharacter successful! [in 170 ms]
+[2016.12.04-22.35.56:615][315]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.35.57:436][321]LogSavePackage: Save=170.840530ms
+[2016.12.04-22.35.57:436][321]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacterB8E198384A9DC68E1B1D05BCEEBF0FCB.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-22.35.57:441][321]LogSavePackage: Total save time: 177.689839ms
+[2016.12.04-22.35.57:441][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-22.35.57:534][324]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.37.31:197][835]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.37.37:832][263]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.38.01:560][133]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.38.18:871][395]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.38.23:897][742]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.38.41:631][146]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.38.53:430][525]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.39.20:937][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.39.20:938][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.39.20:938][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.39.22:826][638]LogSavePackage: Save=1773.328857ms
+[2016.12.04-22.39.22:826][638]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap_Auto64FD7245F4F44476693D449AC9EE86AF8.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap'
+[2016.12.04-22.39.22:829][638]LogSavePackage: Total save time: 1835.217342ms
+[2016.12.04-22.39.22:829][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap
+[2016.12.04-22.39.22:831][638]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.893
+[2016.12.04-22.39.22:831][638]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.893
+[2016.12.04-22.39.22:839][638]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2016.12.04-22.39.22:869][638]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2016.12.04-22.39.22:869][638]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2016.12.04-22.39.23:057][638]LogSavePackage: Save=182.967102ms
+[2016.12.04-22.39.23:057][638]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter_Auto6B81B708241F35170EDB264A1F2ACE06A.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset'
+[2016.12.04-22.39.23:060][638]LogSavePackage: Total save time: 189.731166ms
+[2016.12.04-22.39.23:060][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset
+[2016.12.04-22.39.23:060][638]LogFileHelpers: Auto-saving content packages took 0.228
+[2016.12.04-22.39.23:760][642]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.39.37:761][292]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.39.44:273][702]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.40.16:054][124]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.40.25:635][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.40.25:635][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.40.25:635][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.40.25:762][373]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.40.42:593][ 54]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.40.56:608][524]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.41.20:870][623]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.41.28:393][ 59]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.41.32:792][212]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.41.35:634][311]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.41.37:863][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
+[2016.12.04-22.41.37:863][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_46) Not registered. Aborting.
+[2016.12.04-22.41.37:863][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_45) Not registered. Aborting.
+[2016.12.04-22.41.37:982][433]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.41.39:013][445]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.41.41:109][518]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.45.07:582][854]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-22.45.07:710][854]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
+[2016.12.04-22.45.07:710][854]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_C_47) Not registered. Aborting.
+[2016.12.04-22.45.07:710][854]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandleComponent_46) Not registered. Aborting.
+[2016.12.04-22.45.07:757][854]BlueprintEditorCompileResults: Info [5274.53] Compile of FirstPersonCharacter successful! [in 175 ms]
+[2016.12.04-22.45.07:846][857]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.45.09:184][869]LogSavePackage: Save=190.168793ms
+[2016.12.04-22.45.09:184][869]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacterB5B6C4D24D942693012FE4B26E179373.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-22.45.09:188][869]LogSavePackage: Total save time: 197.955243ms
+[2016.12.04-22.45.09:188][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-22.45.09:276][872]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.45.17:471][956]LogSavePackage: Save=174.203308ms
+[2016.12.04-22.45.17:471][956]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacter571D3AB54412A433B7542CB9FF918F84.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-22.45.17:473][956]LogSavePackage: Total save time: 178.126618ms
+[2016.12.04-22.45.17:473][956]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-22.45.20:107][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.45.20:108][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.45.20:108][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.45.22:019][985]LogSavePackage: Save=1718.342529ms
+[2016.12.04-22.45.22:019][985]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UEDPCFirstPersonExampleMapC8D790BB4BB2DAD26E7EAF9E94E068B6.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.umap'
+[2016.12.04-22.45.22:021][985]LogSavePackage: Total save time: 1790.818263ms
+[2016.12.04-22.45.22:021][985]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.umap
+[2016.12.04-22.45.50:289][115]LogEditorViewport: Clicking on Actor (LMB): CanReadLetter_C (CanReadLetter)
+[2016.12.04-22.46.10:360][306]LogSavePackage: Save=1751.352539ms
+[2016.12.04-22.46.10:360][306]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap677401B3421D7CDBC6F0BCBEFF4C40A7.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.12.04-22.46.10:373][306]LogSavePackage: Total save time: 1765.550725ms
+[2016.12.04-22.46.10:373][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.12.04-22.46.12:256][326]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EEEC277240
+[2016.12.04-22.46.14:066][326]LogSavePackage: Save=1730.721069ms
+[2016.12.04-22.46.14:066][326]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UEDPCFirstPersonExampleMap5EDB83A9469B64CD40BE139E986434DF.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.umap'
+[2016.12.04-22.46.14:075][326]LogSavePackage: Total save time: 1741.586685ms
+[2016.12.04-22.46.14:075][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.umap
+[2016.12.04-22.47.18:680][540]LogSavePackage: Save=1766.515747ms
+[2016.12.04-22.47.18:680][540]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMapB083A5B5440FD6803A63E8B5E4B47F20.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.12.04-22.47.18:691][540]LogSavePackage: Total save time: 1778.865889ms
+[2016.12.04-22.47.18:691][540]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.12.04-22.47.40:302][615]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.47.41:447][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.12.04-22.47.41:447][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.47.41:447][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.47.41:447][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.47.43:267][626]LogSavePackage: Save=1710.930420ms
+[2016.12.04-22.47.43:267][626]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/UEDPCFirstPersonExampleMapEAA1D47B432B1CACE52B0EA5AEDC5770.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.umap'
+[2016.12.04-22.47.43:277][626]LogSavePackage: Total save time: 1722.899895ms
+[2016.12.04-22.47.43:278][626]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCFirstPersonExampleMap.umap
+[2016.12.04-22.48.07:148][714]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.48.36:002][812]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.48.44:826][902]LogEditorViewport: Clicking on Actor (LMB): Item_Misc_Apple_WA_C (Item_Misc_Apple_WA)
+[2016.12.04-22.48.58:412][ 44]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.50.01:572][283]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.50.02:263][290]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.50.03:549][301]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.53.38:481][629]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.04-22.53.38:601][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.12.04-22.53.38:601][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.53.38:601][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.53.38:601][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.53.38:640][629]BlueprintEditorCompileResults: Info [5785.41] Compile of FirstPersonCharacter successful! [in 158 ms]
+[2016.12.04-22.53.38:727][631]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.53.39:682][638]LogSavePackage: Save=182.841370ms
+[2016.12.04-22.53.39:682][638]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonCharacterC112A0C240C201E9826F1589EA2D31B3.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.04-22.53.39:685][638]LogSavePackage: Total save time: 189.355399ms
+[2016.12.04-22.53.39:685][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.04-22.53.39:781][641]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.53.44:535][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.53.44:535][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.53.44:535][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.53.44:557][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF3BA10EA0
+[2016.12.04-22.53.46:448][896]LogSavePackage: Save=1692.564697ms
+[2016.12.04-22.53.46:448][896]LogSavePackage: Moving '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Saved/FirstPersonExampleMap3357D55F4CE0C6C3257004BDA23087F0.tmp' to '../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.12.04-22.53.46:461][896]LogSavePackage: Total save time: 1776.188202ms
+[2016.12.04-22.53.46:461][896]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Matthew/Documents/Unreal Projects/Surreal/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.12.04-22.53.46:484][896]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.907
+[2016.12.04-22.53.46:578][899]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2016.12.04-22.53.48:531][920]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.12.04-22.53.48:531][920]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.12.04-22.53.48:531][920]LogActorComponent: UnregisterComponent: (/Engine/Transient.Inventory_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.53.48:531][920]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.12.04-22.53.48:629][920]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.04-22.53.48:828][921]Cmd: QUIT_EDITOR
+[2016.12.04-22.53.48:972][921]LogExit: Preparing to exit.
+[2016.12.04-22.53.49:283][921]LogExit: Editor shut down
+[2016.12.04-22.53.49:284][921]LogExit: Transaction tracking system shut down
+[2016.12.04-22.53.49:291][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EEEE5BD940
+[2016.12.04-22.53.49:293][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EEFD8E7880
+[2016.12.04-22.53.49:294][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EEFD6C5F80
+[2016.12.04-22.53.49:294][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EEFD91F4C0
+[2016.12.04-22.53.49:294][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EEFD91F920
+[2016.12.04-22.53.49:492][921]LogExit: Object subsystem successfully closed.
+[2016.12.04-22.53.49:512][921]LogD3D11RHI: Shutdown
+[2016.12.04-22.53.49:512][921]LogD3D11RHI: CleanupD3DDevice
+[2016.12.04-22.53.49:516][921]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.04-22.53.49:695][921]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (201)
+[2016.12.04-22.53.49:695][921]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.12.04-22.53.49:695][921]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.12.04-22.53.49:695][921]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.12.04-22.53.49:695][921]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.12.04-22.53.49:695][921]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.12.04-22.53.49:695][921]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.12.04-22.53.49:695][921]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.12.04-22.53.49:698][921]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.12.04-22.53.50:307][921]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.12.04-22.53.50:308][921]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.12.04-22.53.50:309][921]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.12.04-22.53.50:309][921]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.12.04-22.53.50:309][921]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.12.04-22.53.50:309][921]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.12.04-22.53.50:309][921]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.12.04-22.53.50:309][921]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.12.04-22.53.50:310][921]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.12.04-22.53.50:310][921]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.12.04-22.53.50:310][921]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.12.04-22.53.50:310][921]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.12.04-22.53.50:310][921]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.12.04-22.53.50:310][921]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.12.04-22.53.50:310][921]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.12.04-22.53.50:310][921]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.12.04-22.53.50:408][921]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.12.04-22.53.50:408][921]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.12.04-22.53.50:408][921]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.12.04-22.53.50:408][921]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.12.04-22.53.50:408][921]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.12.04-22.53.50:408][921]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.12.04-22.53.50:408][921]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.12.04-22.53.50:408][921]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.12.04-22.53.50:421][921]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.12.04-22.53.50:422][921]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.12.04-22.53.50:422][921]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.12.04-22.53.50:424][921]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.12.04-22.53.50:551][921]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.12.04-22.53.50:551][921]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.12.04-22.53.50:551][921]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.12.04-22.53.50:652][921]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.12.04-22.53.50:652][921]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.12.04-22.53.50:652][921]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.12.04-22.53.50:655][921]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.12.04-22.53.50:655][921]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.12.04-22.53.50:656][921]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.12.04-22.53.50:658][921]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.12.04-22.53.50:658][921]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.12.04-22.53.50:658][921]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.12.04-22.53.50:658][921]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.12.04-22.53.50:658][921]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.12.04-22.53.50:658][921]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.12.04-22.53.50:658][921]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.12.04-22.53.50:658][921]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.12.04-22.53.50:658][921]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.12.04-22.53.50:658][921]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.12.04-22.53.50:717][921]LogDerivedDataCache: Shutdown
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.12.04-22.53.50:717][921]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.12.04-22.53.51:720][921]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.12.04-22.53.51:720][921]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.12.04-22.53.51:720][921]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.12.04-22.53.51:720][921]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.04-22.53.51:720][921]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.04-22.53.51:720][921]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.04-22.53.51:720][921]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.04-22.53.51:723][921]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.04-22.53.51:723][921]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.04-22.53.51:723][921]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.04-22.53.51:723][921]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.04-22.53.51:723][921]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.04-22.53.51:723][921]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.04-22.53.51:723][921]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.04-22.53.51:723][921]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.04-22.53.51:723][921]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.04-22.53.51:723][921]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.04-22.53.51:725][921]LogExit: Exiting.
+[2016.12.04-22.53.51:727][921]Log file closed, 12/04/16 17:53:51
